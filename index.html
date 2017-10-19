@@ -2,13 +2,8 @@
 layout: default
 ---
 
-<div class="home">
+{% for section in site.sections %}
 
-  <h1 class="page-heading">Home</h1>
+<section class="page-content section-{{ section.name }} {{ section.classes }}" id="{{ section.name }}">{{ section.content }}</section>
 
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-  Facilis, tempora. A quis minima, rem architecto animi inventore 
-  nulla, et omnis beatae molestias, odio necessitatibus consequatur 
-  expedita odit commodi. Similique, tempore!</p>
-
-</div>
+{% endfor %}

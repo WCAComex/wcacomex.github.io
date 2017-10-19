@@ -43,6 +43,7 @@ gulp.task('watch', function () {
         './*', 
         '_layouts/*', 
         '_includes/*', 
+        '_sections/*', 
         '_sass/*', 
         'css/*', 
         '_scripts/**/*', 

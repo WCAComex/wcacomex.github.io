@@ -40,9 +40,15 @@ li
 h1, h2, h3, h4, h5, h6 
     font-weight: $base-font-weight
 
-a 
+%transition
+    transition: .3s ease-in-out
+    backface-visibility: hidden
+    filter: focus(0)
+
+a
     color: $brand-color
     text-decoration: none
+    @extend %transition
     &:hover 
         color: $text-color
         text-decoration: underline
@@ -89,6 +95,26 @@ pre
         display: table
         clear: both
 
+.hero
+    padding-left: $spacing-unit
+    padding-right: $spacing-unit
+    background-color: $brand-color
+    color: #fff
+    a
+        color: $compl-color
+    [data-btn]
+        background-color: $compl-color
+        &, &:hover, &:focus, &:active
+            color: $text-color
+    
+    &.light
+        background-color: $grey-color-light
+        color: $text-color
+        a
+            color: $brand-color
+        [data-btn]
+            background-color: #fff
+
 .icon 
     >svg 
         display: inline-block
@@ -98,3 +124,20 @@ pre
         color: inherit
         path 
             fill: currentcolor
+
++module(btn)
+    padding: 5px 15px
+    display: inline-block
+    text-align: center
+    text-transform: uppercase
+    text-decoration: none
+    background-color: $brand-color
+    color: #fff
+    border: 0 none
+    border-radius: 4px
+
+    &:hover, &:focus, &:active
+        color: #fff
+        text-decoration: none
+        box-shadow: 0 3px 8px 0 rgba(black, .5)
+        transform: translateY(-1px)

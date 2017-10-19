@@ -8,6 +8,16 @@ collections:
   uploads:
     title: Uploads
     output: true
+  sections:
+    title: Sections (não alterar)
+    output: false
+defaults:
+-
+  scope:
+    path: ""
+    type: posts
+  values:
+    layout: post
 description: Inteligência em comércio exterior.
 baseurl: ''
 url: 'http://wca.com.br'
