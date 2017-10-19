@@ -9,8 +9,8 @@ collections:
     title: Uploads
     output: true
 description: Inteligência em comércio exterior.
-baseurl: 
-url: http://wca.com.br
+baseurl: ''
+url: 'http://wca.com.br'
 markdown: kramdown
 sass:
   style: compressed
