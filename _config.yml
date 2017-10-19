@@ -1,6 +1,6 @@
 ---
-title: Wcacomex.Github.Io
-timezone: UTC
+title: WCA
+timezone: America/Sao_Paulo
 collections:
   posts:
     title: Posts
@@ -8,3 +8,4 @@ collections:
   uploads:
     title: Uploads
     output: true
+description: Inteligência em comércio exterior.
