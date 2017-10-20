@@ -41,15 +41,18 @@ h1, h2, h3, h4, h5, h6
     font-weight: $base-font-weight
 
 %transition
-    transition: .3s ease-in-out
+    -webkit-font-smoothing: antialiased
     backface-visibility: hidden
-    filter: focus(0)
+    transform: translate3d(0, 0, 0)
+    transform-style: preserve-3d
+    filter: blur(.3px)
+    transition: .3s ease-in-out
 
 a
     color: $brand-color
     text-decoration: none
     @extend %transition
-    &:hover 
+    &:hover, &:focus, &:active
         color: $text-color
         text-decoration: underline
 
