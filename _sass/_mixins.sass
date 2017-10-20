@@ -6,15 +6,7 @@
     @media screen and (min-width: $device + 1)
         @content
 
-=btn-shadow($color)
-    background-color: $color
-    box-shadow: none
-    transition: 0.5s ease-in-out
-    transform: translate(0)
-    &:hover, &:focus
-        outline: none
-        transform: translateY(0)
-        box-shadow: inset 0 1px 3px 0 rgba(#fff, 0.5), 0 -1px 5px 1px $color
+// ### [data-modules] ###
 
 $am-prefix: data
 
@@ -40,15 +32,4 @@ $am-prefix: data
     @at-root [#{$result}-#{$childName}]
         @content
 
-=keyframes($keyframes-name)
-    @-webkit-keyframes #{$keyframes-name}
-        @content
-
-    @-moz-keyframes #{$keyframes-name}
-        @content
-
-    @-o-keyframes #{$keyframes-name}
-        @content
-
-    @keyframes #{$keyframes-name}
-        @content
+// ### end [data-modules] ###
