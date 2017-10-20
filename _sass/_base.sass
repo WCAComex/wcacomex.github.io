@@ -39,6 +39,11 @@ li
 
 h1, h2, h3, h4, h5, h6 
     font-weight: $base-font-weight
+    line-height: 1.1
+
+@for $i from 1 through 6
+    h#{$i}
+        font-size: $base-font-size * 1.5 + $base-font-size / $i
 
 %transition
     -webkit-font-smoothing: antialiased
