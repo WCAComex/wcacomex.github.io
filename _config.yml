@@ -23,3 +23,8 @@ url: http://wca.com.br
 markdown: kramdown
 sass:
   style: compressed
+exclude:
+  - node_modules
+  - desktop.ini
+  - gulpfile.js
+  - npm-debug.log
