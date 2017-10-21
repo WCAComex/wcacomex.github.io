@@ -1,6 +1,9 @@
 
-function ok() {
-    return true;
+function ok({id, test}) {
+    console.log(id, test);
 }
 
-ok();
+const id = 1;
+const test = true;
+
+ok({ id, test });

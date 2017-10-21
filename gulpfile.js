@@ -2,6 +2,7 @@ var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 var cp          = require('child_process');
 var rollup      = require('gulp-rollup');
+var babel       = require('gulp-babel');
 var sourcemaps  = require('gulp-sourcemaps');
 
 var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
@@ -22,6 +23,7 @@ gulp.task('bundle', function() {
             input: './_scripts/main.js',
             format: 'iife'
         }))
+        .pipe(babel())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('./js'));
   });
@@ -41,13 +43,13 @@ gulp.task('browser-sync', ['bundle', 'jekyll-build'], function() {
 gulp.task('watch', function () {
     gulp.watch([
         './*', 
-        '_layouts/*', 
-        '_includes/*', 
-        '_sections/*', 
-        '_sass/*', 
-        'css/*', 
+        '_layouts/**/*', 
+        '_includes/**/*', 
+        '_sections/**/*', 
+        '_sass/**/*', 
+        'css/**/*', 
         '_scripts/**/*', 
-        'js/*'
+        'js/**/*'
     ], ['jekyll-rebuild']);
 });
 

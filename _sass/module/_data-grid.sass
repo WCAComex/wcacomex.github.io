@@ -127,6 +127,16 @@
                 flex-basis: calc(50% - #{$spacing-unit})
                 &:nth-child(even)
                     margin-right: 0
+    
+    +variant(row)
+        &[data-grid~="spacing"]
+            > :not(:last-child)
+                &, &[data-cell~="order-1"]
+                    margin-right: $spacing-unit / 2
+        &[data-grid~="small-spacing"]
+            > :not(:last-child)
+                &, &[data-cell~="order-1"]
+                    margin-right: $spacing-unit / 4
 
     +media-query($on-palm)
         &:not([data-grid~="row"])
@@ -138,4 +148,3 @@
                 flex-basis: auto
             > [data-grid]
                 display: flex
-

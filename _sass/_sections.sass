@@ -1,21 +1,24 @@
-%maw
-    .wrapper
-        > *
-            max-width: 30em
+%section-spacing
+    padding-top: $spacing-unit * 2
+    padding-bottom: $spacing-unit * 2
 
 .section-
 
     &hero
-        @extend %maw
-        padding-top: $spacing-unit * 4
-        padding-bottom: $spacing-unit * 4
+        @extend %section-spacing
     &features
-        padding-top: $spacing-unit * 4
-        padding-bottom: $spacing-unit * 4
+        @extend %section-spacing
     &services
         article
             text-align: center
             +media-greater($on-palm)
                 max-width: 16em
+        svg
+            max-width: 80%
+            +media-query($on-palm)
+                max-width: 60%
     &about
-        @extend %maw
+        @extend %section-spacing
+        line-height: 1.6
+        p
+            letter-spacing: 1px
