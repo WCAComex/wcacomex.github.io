@@ -1,7 +1,6 @@
 ---
 title: Exportação
 date: 2017-10-22 21:17:00 -02:00
-permalink: "/exportacao"
 layout: page
 ---
 
