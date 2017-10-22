@@ -1,7 +1,7 @@
 ---
 title: A WCA no mercado
 date: 2017-10-22 21:05:00 -02:00
-permalink: "/empresa"
+permalink: "/empresa/"
 nav-title: Empresa
 layout: page
 ---
