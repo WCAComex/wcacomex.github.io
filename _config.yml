@@ -8,6 +8,9 @@ collections:
   sections:
     title: Sections (não alterar)
     output: false
+  servicos:
+    title: Serviços
+    output: true
   uploads:
     title: Uploads
     output: true
