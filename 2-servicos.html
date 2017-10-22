@@ -1,0 +1,22 @@
+---
+title: A WCA no mercado
+permalink: "/servicos/"
+nav-title: Serviços
+layout: default
+---
+
+<section class="page-content">
+
+    {% for servico in site.servicos %}
+
+        <article class="wrapper servicos-item">
+            <h2>{{ servico.title }}</h2>
+            <p>
+                {{ servico.excerpt }}
+                <a href="{{ site.baseurl }}">Leia mais...</a>
+            </p>
+        </article>
+
+    {% endfor %}
+
+</section>
