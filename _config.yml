@@ -11,6 +11,7 @@ collections:
   servicos:
     title: Serviços
     output: true
+    layout: page
   uploads:
     title: Uploads
     output: true
