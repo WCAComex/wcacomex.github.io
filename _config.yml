@@ -11,6 +11,7 @@ collections:
   servicos:
     title: Serviços
     output: true
+    permalink: "/servicos/:path/"
     layout: page
   uploads:
     title: Uploads
