@@ -10,6 +10,7 @@
         @extend %section-spacing
     &services
         article
+            margin: $spacing-unit
             border-radius: 7px
             text-align: center
             @extend %transition
@@ -17,7 +18,9 @@
                 background-color: #000
                 color: #fff
             +media-greater($on-palm)
-                max-width: 16em
+                max-width: 25em
+            +media-greater($large-content-width)
+                min-width: 25%
             p
                 font-size: 85%
         svg
