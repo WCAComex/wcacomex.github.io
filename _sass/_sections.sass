@@ -10,9 +10,16 @@
         @extend %section-spacing
     &services
         article
+            border-radius: 7px
             text-align: center
+            @extend %transition
+            &:hover
+                background-color: #000
+                color: #fff
             +media-greater($on-palm)
                 max-width: 16em
+            p
+                font-size: 85%
         svg
             max-width: 80%
             +media-query($on-palm)
