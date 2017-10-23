@@ -1,10 +1,25 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
+  <div class="wrapper" data-grid="center spacing">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    <div data-cell="2of3">
+      <h2 class="footer-heading">{{ site.title }}</h2>
+      <p>{{ site.description }}</p>
+    </div>
 
-    <p>{{ site.description }}</p>
+    <div data-cell="shrink">
+      <ul class="seamless">
+        {% for my_page in site.pages %}
+          {% if my_page.nav-title %}
+            <li>
+              <a href="{{ my_page.url | prepend: site.baseurl }}">
+                {{ my_page.nav-title }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
 
   </div>
 
