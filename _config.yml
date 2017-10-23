@@ -16,6 +16,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  utilidades:
+    title: Utilidades
+    output: true
 defaults:
 - scope:
     path: ''
