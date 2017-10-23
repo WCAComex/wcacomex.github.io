@@ -19,6 +19,8 @@ collections:
   utilidades:
     title: Utilidades
     output: true
+    permalink: "/utilidades/:path/"
+    layout: page
 defaults:
 - scope:
     path: ''
