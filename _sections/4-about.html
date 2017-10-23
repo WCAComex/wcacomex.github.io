@@ -4,15 +4,15 @@ name: about
 ---
 
 <div class="wrapper">
-    <h2>Sobre nós</h2>
-    <p>Lorem ipsum dolor sit amet consectetur 
-    <a href="#loremboat">adipisicing elit</a>.
-    Commodi ratione corrupti in nemo, nulla totam, consequuntur 
-    voluptatibus fugit similique molestias qui voluptatum reprehenderit 
-    deleniti! Voluptates nulla labore eius porro voluptate?</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-    Quis ad incidunt <a href="#lorembout">doloribus nulla consequuntur</a> sit aliquid, totam 
-    perspiciatis quibusdam mollitia amet aut omnis itaque velit iure 
-    explicabo eveniet cumque! Suscipit.</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29341.39019562409!2d-46.90741001574323!3d-23.182103673248495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf2686376e3801%3A0xc759616b1ec26c4!2sWCA+Consultoria+Com+Exterior!5e0!3m2!1spt-BR!2sus!4v1508717596848" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<div class="wrapper">
+    <h2>Sobre a WCA</h2>
+    {% assign about = site.pages | where: 'is_about_page', true | first %}
+    <p>
+        {{ about.content | markdownify | strip_html | strip_newlines | truncatewords: 30 }}
+        <a href="{{ site.baseurl }}{{ about.url }}">Mais sobre a WCA »</a>
+    </p>
     <p data-grid="center"><a href="#contato" data-btn data-cell="shrink fill">Contrate agora mesmo!</a></p>
 </div>

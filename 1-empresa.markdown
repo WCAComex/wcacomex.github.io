@@ -4,6 +4,7 @@ date: 2017-10-22 21:05:00 -02:00
 permalink: "/empresa/"
 nav-title: Empresa
 layout: page
+is_about_page: true
 ---
 
 A WCA é uma empresa consolidada no mercado com sua expertise em otimizar processos e executá-los de forma simples e eficaz. Todos os procedimentos são pensados para atender clientes com diferentes demandas, perfis e necessidades.
