@@ -1,0 +1,20 @@
+---
+title: Utilidades
+permalink: "/utilidades/"
+nav-title: Utilidades
+layout: default
+---
+
+<section class="page-content">
+
+    {% for utilidade in site.utilidades %}
+
+        <article class="wrapper utilidades-item">
+            <h2>
+                <a href="{{ site.baseurl }}{{ utilidade.url }}">{{ utilidade.title }}</a>
+            </h2>
+        </article>
+
+    {% endfor %}
+
+</section>
