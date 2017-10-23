@@ -12,7 +12,6 @@ collections:
     title: Serviços
     output: true
     permalink: "/servicos/:path/"
-    layout: page
   uploads:
     title: Uploads
     output: true
@@ -20,7 +19,6 @@ collections:
     title: Utilidades
     output: true
     permalink: "/utilidades/:path/"
-    layout: page
 defaults:
 - scope:
     path: ''
@@ -30,6 +28,11 @@ defaults:
 - scope:
     path: ''
     type: servicos
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: utilidades
   values:
     layout: page
 description: Inteligência em comércio exterior.
