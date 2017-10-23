@@ -23,6 +23,19 @@ body
   *
     box-sizing: inherit
 
+::-moz-selection
+  background: $brand-color
+  color: #fff
+  text-shadow: none
+a::-moz-selection
+  color: $compl-color
+::selection
+  background: $brand-color
+  color: #fff
+  text-shadow: none
+a::selection
+  color: $compl-color
+
 h1, h2, h3, h4, h5, h6, p,
 blockquote, pre, ul, ol, dl, figure,
 %vertical-rhythm 
