@@ -1,5 +1,6 @@
 ---
 title: Sobre
+published: false
 name: about
 ---
 
