@@ -8,7 +8,6 @@ collections:
   sections:
     title: Sections (não alterar)
     output: false
-    published: false
   servicos:
     title: Serviços
     output: true
