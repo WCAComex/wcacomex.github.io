@@ -7,7 +7,7 @@ collections:
     output: true
   sections:
     title: Sections (não alterar)
-    output: false
+    output: true
   servicos:
     title: Serviços
     output: true
