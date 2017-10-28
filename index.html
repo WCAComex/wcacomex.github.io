@@ -1,9 +1,28 @@
 ---
 layout: default
+sections:
+-
+    title: Home
+    name: hero
+    classes: hero
+-
+    title: Destaques
+    name: features
+-
+    title: Serviços
+    name: services
+    classes: hero dark
+-
+    title: Sobre
+    name: about
 ---
 
-{% for section in site.sections %}
+{% for section in page.sections %}
 
-<section class="page-content section-{{ section.name }} {{ section.classes }}" id="{{ section.name }}">{{ section.content }}</section>
+<section class="page-content section-{{ section.name }} {{ section.classes }}" id="{{ section.name }}">
+
+    {% include sections/{{ section.name }}.html %}
+
+</section>
 
 {% endfor %}
