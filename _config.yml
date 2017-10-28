@@ -11,7 +11,7 @@ collections:
     output: true
     permalink: "/utilidades/:path/"
   posts:
-    title: ""
+    title: Blog
     output: true
     permalink: "/blog/:path/"
   uploads:
