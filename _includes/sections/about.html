@@ -1,13 +1,21 @@
+
 <div class="wrapper">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29341.39019562409!2d-46.90741001574323!3d-23.182103673248495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf2686376e3801%3A0xc759616b1ec26c4!2sWCA+Consultoria+Com+Exterior!5e0!3m2!1spt-BR!2sus!4v1508717596848" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 <div class="wrapper">
-    <h2>Sobre a WCA</h2>
-    {% assign about = site.pages | where: 'is_about_page', true | first %}
-    <p>
-        {{ about.content | markdownify | strip_html | strip_newlines | truncatewords: 30 }}
-        <a href="{{ site.baseurl }}{{ about.url }}">Mais sobre a WCA »</a>
-    </p>
+
+    {% assign about_page = site.pages | where: 'is_about_page', true | first %}
+    {% if about_page %}
+
+        <h2>Sobre a WCA</h2>
+        <p>
+            {{ about_page.content | markdownify | strip_html | strip_newlines | truncatewords: 30 }}
+            <a href="{{ site.baseurl }}{{ about_page.url }}">Mais sobre a WCA »</a>
+        </p>
+    
+    {% endif %}
+    
     <p data-grid="center"><a href="#contato" data-btn data-cell="shrink fill">Contrate agora mesmo!</a></p>
+
 </div>

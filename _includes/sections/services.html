@@ -1,13 +1,16 @@
+
 <div data-grid="center wrap">
 
     {% for servico in site.servicos %}
 
         <article class="wrapper" data-cell="1of3 fill" data-grid="column justify">
+
             <h4>{{ servico.title }}</h4>
             {{ servico.excerpt | truncatewords: 30 }}
             <p data-cell="shrink">
                 <a href="{{ site.baseurl }}{{ servico.url }}" data-btn>Saiba mais</a>
             </p>
+
         </article>
 
     {% endfor %}
