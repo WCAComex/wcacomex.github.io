@@ -1,0 +1,83 @@
+
+.banner
+    overflow: hidden
+    position: relative
+    padding-bottom: 0
+    .globo
+        position: relative
+        display: block
+        height: 0
+        padding-bottom: 100%
+        border-radius: 100%
+        background-color: rgba(red, .5)
+        margin: 20% 0  -80%
+        backface-visibility: hidden
+        -webkit-transform: rotate(0)
+        transform: rotate(0)
+        -webkit-animation: banner-rotation 15s ease infinite
+        animation: banner-rotation 15s ease infinite
+    .step
+        position: absolute
+        left: 50%
+        text-align: center
+        height: 100%
+        background-color: rgba(green, .5)
+        &.step-truck
+            -webkit-transform: translateX(-50%) rotate(0deg)
+            transform: translateX(-50%) rotate(0deg)
+        &.step-plane
+            -webkit-transform: translateX(-50%) rotate(120deg)
+            transform: translateX(-50%) rotate(120deg)
+        &.step-ship
+            -webkit-transform: translateX(-50%) rotate(240deg)
+            transform: translateX(-50%) rotate(240deg)
+    .sprite
+        &.sprite-truck
+        &.sprite-plane
+        &.sprite-ship
+
+@-webkit-keyframes banner-rotation
+    0%
+        -webkit-transform: rotate(0)
+        transform: rotate(0)
+    16%
+        -webkit-transform: rotate(-120deg)
+        transform: rotate(-120deg)
+    32%
+        -webkit-transform: rotate(-120deg)
+        transform: rotate(-120deg)
+    48%
+        -webkit-transform: rotate(-240deg)
+        transform: rotate(-240deg)
+    64%
+        -webkit-transform: rotate(-240deg)
+        transform: rotate(-240deg)
+    80%
+        -webkit-transform: rotate(-360deg)
+        transform: rotate(-360deg)
+    100%
+        -webkit-transform: rotate(-360deg)
+        transform: rotate(-360deg)
+
+@keyframes banner-rotation
+    0%
+        -webkit-transform: rotate(0)
+        transform: rotate(0)
+    16%
+        -webkit-transform: rotate(-120deg)
+        transform: rotate(-120deg)
+    32%
+        -webkit-transform: rotate(-120deg)
+        transform: rotate(-120deg)
+    48%
+        -webkit-transform: rotate(-240deg)
+        transform: rotate(-240deg)
+    64%
+        -webkit-transform: rotate(-240deg)
+        transform: rotate(-240deg)
+    80%
+        -webkit-transform: rotate(-360deg)
+        transform: rotate(-360deg)
+    100%
+        -webkit-transform: rotate(-360deg)
+        transform: rotate(-360deg)
