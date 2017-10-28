@@ -6,7 +6,7 @@ collections:
     title: Posts
     output: true
   sections:
-    title: Sections
+    title: Sections (página inicial)
     output: false
   servicos:
     title: Serviços
