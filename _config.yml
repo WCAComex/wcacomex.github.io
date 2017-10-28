@@ -5,20 +5,17 @@ collections:
   posts:
     title: Posts
     output: true
-  sections:
-    title: Sections (não alterar)
-    output: false
   servicos:
     title: Serviços
     output: true
     permalink: "/servicos/:path/"
-  uploads:
-    title: Uploads
-    output: true
   utilidades:
     title: Utilidades
     output: true
     permalink: "/utilidades/:path/"
+  uploads:
+    title: Uploads
+    output: true
 defaults:
 - scope:
     path: ''
