@@ -2,24 +2,20 @@
 title: WCA
 timezone: America/Sao_Paulo
 collections:
+  posts:
+    title: Posts
+    output: true
   servicos:
     title: Serviços
     output: true
     permalink: "/servicos/:path/"
+  uploads:
+    title: Uploads
+    output: true
   utilidades:
     title: Utilidades
     output: true
     permalink: "/utilidades/:path/"
-  posts:
-    title: Blog
-    output: true
-    permalink: "/blog/:path/"
-  uploads:
-    title: Uploads
-    output: true
-  sections:
-    title: ""
-    output: false
 defaults:
 - scope:
     path: ''
