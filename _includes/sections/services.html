@@ -3,7 +3,7 @@
 
     {% for servico in site.servicos %}
 
-        <article class="wrapper" data-cell="1of3 fill" data-grid="column justify">
+        <article data-cell="1of3 fill" data-grid="column justify">
 
             <h4>{{ servico.title }}</h4>
             {{ servico.excerpt | truncatewords: 30 }}
