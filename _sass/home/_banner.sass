@@ -1,73 +1,72 @@
-+media-greater($on-palm)
 
-    #hero
-        background-color: #296ca9
+#hero
+    background-color: #296ca9
 
-    .banner
-        overflow: hidden
+.banner
+    overflow: hidden
+    position: relative
+    padding-bottom: 0
+    .globo
+        background: url('#{$baseurl}/img/home/globo.jpg') center no-repeat
+        background-size: 110%
         position: relative
-        padding-bottom: 0
-        .globo
-            background: url('#{$baseurl}/img/home/globo.jpg') center no-repeat
-            background-size: 110%
-            position: relative
-            display: block
-            height: 0
-            padding-bottom: 140%
-            border-radius: 999em
-            margin: 0% -20%  -90%
-            backface-visibility: hidden
-            -webkit-transform: rotate(60deg)
-            transform: rotate(60deg)
-            -webkit-animation: banner-rotation 15s ease infinite
-            animation: banner-rotation 15s ease infinite
-        .step
+        display: block
+        height: 0
+        padding-bottom: 140%
+        border-radius: 999em
+        margin: 0% -20%  -90%
+        backface-visibility: hidden
+        -webkit-transform: rotate(60deg)
+        transform: rotate(60deg)
+        -webkit-animation: banner-rotation 15s ease infinite
+        animation: banner-rotation 15s ease infinite
+    .step
+        position: absolute
+        left: 50%
+        text-align: center
+        height: 100%
+        border: 1px dotted red
+        h3
             position: absolute
-            left: 50%
-            text-align: center
-            height: 100%
-            border: 1px dotted red
-            h3
-                position: absolute
+            top: 10%
+            left: -10%
+            -webkit-transform: translateX(-50%)
+            transform: translateX(-50%)
+        &.step-ship
+            -webkit-transform: translateX(-50%) rotate(180deg)
+            transform: translateX(-50%) rotate(180deg)
+        &.step-truck
+            -webkit-transform: translateX(-50%) rotate(300deg)
+            transform: translateX(-50%) rotate(300deg)
+        &.step-plane
+            -webkit-transform: translateX(-50%) rotate(60deg)
+            transform: translateX(-50%) rotate(60deg)
+    .sprite
+        padding: 10px
+        border: 1px solid yellow
+        width: 100%
+        height: 100%
+        &.sprite-ship
+            -webkit-animation: rotate-sprite 5s ease-in-out infinite
+            animation: rotate-sprite 5s ease-in-out infinite
+            img
+                position: relative
+                top: 25%
+                transform: translateY(0)
+        &.sprite-truck
+            -webkit-animation: rotate-sprite 5s ease-in-out infinite
+            animation: rotate-sprite 5s ease-in-out infinite
+            img
+                position: relative
+                top: 25%
+                transform: translateY(0)
+        &.sprite-plane
+            -webkit-animation: rotate-sprite 5s ease-in-out infinite
+            animation: rotate-sprite 5s ease-in-out infinite
+            img
+                position: relative
                 top: 10%
-                left: -10%
-                -webkit-transform: translateX(-50%)
-                transform: translateX(-50%)
-            &.step-ship
-                -webkit-transform: translateX(-50%) rotate(180deg)
-                transform: translateX(-50%) rotate(180deg)
-            &.step-truck
-                -webkit-transform: translateX(-50%) rotate(300deg)
-                transform: translateX(-50%) rotate(300deg)
-            &.step-plane
-                -webkit-transform: translateX(-50%) rotate(60deg)
-                transform: translateX(-50%) rotate(60deg)
-        .sprite
-            padding: 10px
-            border: 1px solid yellow
-            width: 100%
-            height: 100%
-            &.sprite-ship
-                -webkit-animation: rotate-sprite 5s ease-in-out infinite
-                animation: rotate-sprite 5s ease-in-out infinite
-                img
-                    position: relative
-                    top: 25%
-                    transform: translateY(0)
-            &.sprite-truck
-                -webkit-animation: rotate-sprite 5s ease-in-out infinite
-                animation: rotate-sprite 5s ease-in-out infinite
-                img
-                    position: relative
-                    top: 25%
-                    transform: translateY(0)
-            &.sprite-plane
-                -webkit-animation: rotate-sprite 5s ease-in-out infinite
-                animation: rotate-sprite 5s ease-in-out infinite
-                img
-                    position: relative
-                    top: 10%
-                    transform: translateY(0)
+                transform: translateY(0)
 
 @-webkit-keyframes banner-rotation
     0%
