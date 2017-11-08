@@ -1,0 +1,10 @@
+﻿MODALIDADES DE TRANSAÇAO - EXPORTAÇÃO
+Crédito	001
+Em consignação	002
+Cobrança	003
+Pagamento antecipado	005
+Sem cobertura cambial	006
+Remessa	007
+Cartão de crédrto internacional *	008
+Outras (espéoe. cheque ou travelleEs cbeck)*	009
+Vendas no mercado interno a não residentes no Brasil, em moeda estrangeira

@@ -1,0 +1,17 @@
+﻿Código	Bens	Bens nas	Transporte	Desembaraço	Gastos de	Transporte	Seguro	Gastos de	Desembaraço	Transporte	Entregados
+embalados	instalações	intenocna	para	manipulação	intemadona1	dos bens	manipulação	para	interior rx>	bens ao
+para venda	do	origem	exportação	na origem	no destino	importação	destino	comprador
+vendedor
+EXW	•	O	o	o	o	O	o	o	o	o	o
+FCA	•	•	•	•	o	o	o	o	o	o	o
+FAS	•	•	•	•	o	o	o	o	o	o	o
+FOB	•	•	•	•	€	o	o	o	o	o	o
+CFR	•	•	•	•	•	•	o	o	o	o	o
+CIF	•	•	•	•	•	•	•	o	o	o	o
+CPT	•	•	•	•	•	•	o	o	o	o	o
+CIP	•	•	•	•	•	•	•	o	o	o	o
+DAT	•	•	•	•	•	•	•	•	o	o	o
+DAP	•	•	•	•	•	•	•	•	o	•	•
+DDP	•	•	•	•	•	•	•	•	•	•	•
+Vendedor •
+Comprador O Vendedor / Comprador C
