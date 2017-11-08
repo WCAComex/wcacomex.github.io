@@ -6,9 +6,9 @@ date: 2017-10-23 00:17:00 -02:00
 INCOTERMS® 2010
 Termos Internacionais de Comércio discriminados pela International Chamber of Commerce (ICC) em sua publicação n° 715, de 2010.
 
-Código Descrição Modalidade de transporte Principais obrigações a cargo do Vendedor
+| Código | Descrição | Modalidade de transporte | Principais obrigações a cargo do Vendedor |
+| EXW | Ex Works Na Ongem (local de entrega nomeado) | Qualquer modalidade de transporte | Os bens são entregues pelo vendedor quando ele os coloca à disposção do comprada, em suas instalações, sem carregamento e sem desembaraço para exportação. |
 
-EXW	Ex Works Na Ongem (local de entrega nomeado)	Qualquer modalidade de transporte	Os bens são entregues pelo vendedor quando ele os coloca à disposção do comprada, em suas instalações, sem carregamento e sem desembaraço para exportação.
 FCA	Free Carrier Livre no Transportador (local de entrega nomeado)	Qualquer modalidade de transporte	Os bens são entregues ao transportador designado pelo comprada; desembaraçados para exportação e carregados, se o local de entrega for o domicilio do vendedor
 FAS	Free Alongside Ship Livre ao Lado do Navio (porto de embarque nomeado)	Exclusivamente no transporte aquaviârio (marítimo ou hidroviáno interior)	Os bens são entregues ao lado do navio (ao longo do costado do navio), no cais ou em uma barcaça, no porto de embarque designado, desembaraçados para exportação.
 FOB	Free on Board Livre a Bordo (porto de embarque nomeado)	Exclusivamente no transporte aquaviârio (marítimo ou hidroviáno intenor)	Os bens são entregues a bordo do navio nomeado pelo comprador no porto de embarque designado, desembaraçados para exportação
