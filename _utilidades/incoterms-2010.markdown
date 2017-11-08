@@ -1,5 +1,5 @@
 ---
-title: Incoterms 2000
+title: Incoterms 2010
 date: 2017-10-23 00:17:00 -02:00
 ---
 
