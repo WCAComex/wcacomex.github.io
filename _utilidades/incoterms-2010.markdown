@@ -18,7 +18,7 @@ Termos Internacionais de Comércio discriminados pela International Chamber of C
 | CIP | Carriage and Insurance Paid to Transporte e Seguro Pagos até (local de destino nomeado) | Qualquer modalidade de transporte | Os bens são entregues ao transportador nomeado pelo vendedor, desembaraçados para exportação, com custos de transporte e seguro pagos para levar os bens até o local de destino designado. |
 | DAT | Delivered at Terminal Entregue no Terminal (terminal nomeado no porto ou local de destino) | Qualquer modalidade de transporte | Os bens são entregues no terminal (do porto ou do local de destino designado) desembaraçados para exportação e descarregados, sem desembaraço para importação ou pagamento de qualquer direito de importação. |
 | DAP | Delivered at Place Entregue no Local (local de destino nomeado) | Qualquer modalidade de transporte | Os bens são entregues no local de destino designado, desembaraçados para exportação, prontos para serem descarregados, sem desembaraço para importação ou pagamento de qualquer direito de importação. |
-| DDP | Delivered Duty Paid Entregue com Direitos Pagos (local de destino nomeado) | Qualquer modalidade de transporte | Os bens são entregues no local de destino designado, desembaraçados para exportação, prontos para serem descarregados, desembaraçados para importação e com pagamento dos direitos de importação |
+| DDP | Delivered Duty Paid Entregue com Direitos Pagos (local de destino nomeado) | Qualquer modalidade de transporte | Os bens são entregues no local de destino designado, desembaraçados para exportação, prontos para serem descarregados, desembaraçados para importação e com pagamento dos direitos de importação. |
 
 ---
 
