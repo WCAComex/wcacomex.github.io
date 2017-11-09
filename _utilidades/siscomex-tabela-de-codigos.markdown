@@ -7,7 +7,7 @@ CNPJ - fabricante de mercadoria nacionalizada: 99 999 999/9999-99
 
 LOCAIS ALFANDEGADOS
 
-| Alf. do Aeroporto lnt'l. de São Paulo (Guarulhos) | 0817600 |
+| Alf. do Aeroporto Int'l. de São Paulo (Guarulhos) | 0817600 |
 | Alf. do Aeroporto Int'l. do Rio de Janeiro | 0717700 |
 | Alf. do Aeroporto Int'l. Salgado Filho (Porto Alegre) | 1017600 |
 | Alf. do Aeroporto Int'l. de Viracopos (Campinas) | 0817700 |
