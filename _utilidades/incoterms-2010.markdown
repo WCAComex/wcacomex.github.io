@@ -33,4 +33,4 @@ Termos Internacionais de Comércio discriminados pela International Chamber of C
 | DAP | • | • | • | • | • | • | • | • | o | • | • |
 | DDP | • | • | • | • | • | • | • | • | • | • | • |
 
-Vendedor • Comprador O Vendedor / Comprador C
+Vendedor • Comprador o Vendedor / Comprador €
