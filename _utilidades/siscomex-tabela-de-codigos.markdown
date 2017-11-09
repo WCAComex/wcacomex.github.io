@@ -3,18 +3,18 @@ title: Siscomex - Tabela de Códigos
 date: 2017-10-23 00:20:00 -02:00
 ---
 
-CNPJ - fabncante de mercadoria nacionalizada: 99 999 999/9999-99
+CNPJ - fabricante de mercadoria nacionalizada: 99 999 999/9999-99
 
 LOCAIS ALFANDEGADOS
 
-| Alt. do Aeroporto lnt'l. de São Paulo (Guarulhos) | 0817600 |
+| Alf. do Aeroporto lnt'l. de São Paulo (Guarulhos) | 0817600 |
 | Alf. do Aeroporto Int'l. do Rio de Janeiro | 0717700 |
 | Alf. do Aeroporto Int'l. Salgado Filho (Porto Alegre) | 1017600 |
 | Alf. do Aeroporto Int'l. de Viracopos (Campinas) | 0817700 |
 | IRF do Aeroporto Int'l. Pinto Martins (Fortaleza) | 0317700 |
 | Alf. do Porto de Belém | 0217600 |
 | Alf. do Porto de Fortaleza | 0317600 |
-| Alf. do Porto de Itajai | 0927800 |
+| Alf. do Porto de Itajaí | 0927800 |
 | Alf. do Porto de Manaus | 0227600 |
 | Alf. do Porto de Paranaguá | 0917800 |
 | Alf. do Porto de Recife | 0417600 |
