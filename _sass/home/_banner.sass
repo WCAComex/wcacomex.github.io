@@ -1,14 +1,17 @@
+$animation-duration: 21s
 
 #hero
-    background-color: #2f6eb6
+    background-color: #4892c7
 
 .banner
     overflow: hidden
     position: relative
     padding-bottom: 0
     .globo
-        background: url('#{$baseurl}/img/home/globo.jpg') center no-repeat
-        background-size: 110%
+        background:
+            position: center
+            repeat: no-repeat
+            size: 110%
         position: relative
         display: block
         height: 0
@@ -17,8 +20,12 @@
         backface-visibility: hidden
         -webkit-transform: rotate(-60deg)
         transform: rotate(-60deg)
-        -webkit-animation: banner-rotation 15s ease infinite
-        animation: banner-rotation 15s ease infinite
+        -webkit-animation: banner-rotation $animation-duration ease infinite
+        animation: banner-rotation $animation-duration ease infinite
+        +media-query($on-laptop)
+            background-image: url('#{$baseurl}/img/home/globo-sm.jpg')
+        +media-greater($on-laptop)
+            background-image: url('#{$baseurl}/img/home/globo.jpg')
     .step
         position: absolute
         left: 50%
@@ -26,10 +33,18 @@
         height: 100%
         h3
             position: absolute
-            top: 10%
-            left: -10%
-            -webkit-transform: translateX(-50%)
-            transform: translateX(-50%)
+            top: 7%
+            left: -30%
+            -webkit-animation: show-header $animation-duration / 3 ease-in-out infinite
+            animation: show-header $animation-duration / 3 ease-in-out infinite
+            +media-query($on-laptop)
+                top: 5%
+                left: -20%
+            +media-query($on-palm)
+                top: 0
+                left: -10%
+            +media-greater($content-width)
+                font-size: 4vw
         &.step-ship
             -webkit-transform: translateX(-50%) rotate(180deg)
             transform: translateX(-50%) rotate(180deg)
@@ -43,27 +58,36 @@
         padding: 10px
         width: 100%
         height: 100%
+        margin: auto
+        +media-query($on-laptop)
+            width: 70%
+        +media-query($on-palm)
+            width: 50%
+        +media-greater($on-laptop)
+            img
+                width: 13vw
         &.sprite-ship
-            -webkit-animation: rotate-sprite 5s ease-in-out infinite
-            animation: rotate-sprite 5s ease-in-out infinite
+            -webkit-animation: rotate-sprite $animation-duration / 3 ease-in-out infinite
+            animation: rotate-sprite $animation-duration / 3 ease-in-out infinite
             img
                 position: relative
-                top: 25%
-                transform: translateY(0)
+                top: 24%
         &.sprite-truck
-            -webkit-animation: rotate-sprite 5s ease-in-out infinite
-            animation: rotate-sprite 5s ease-in-out infinite
+            -webkit-animation: rotate-sprite $animation-duration / 3 ease-in-out infinite
+            animation: rotate-sprite $animation-duration / 3 ease-in-out infinite
             img
                 position: relative
-                top: 25%
-                transform: translateY(0)
+                top: 24%
+                +media-query($on-laptop)
+                    top: 23.5%
+                +media-query($on-palm)
+                    top: 23%
         &.sprite-plane
-            -webkit-animation: rotate-sprite 5s ease-in-out infinite
-            animation: rotate-sprite 5s ease-in-out infinite
+            -webkit-animation: rotate-sprite $animation-duration / 3 ease-in-out infinite
+            animation: rotate-sprite $animation-duration / 3 ease-in-out infinite
             img
                 position: relative
                 top: 10%
-                transform: translateY(0)
 
 @-webkit-keyframes banner-rotation
     0%
@@ -98,25 +122,43 @@
         transform: rotate(-420deg)
 
 @-webkit-keyframes rotate-sprite
+    0%, 40%, 100%
+        opacity: 0
+    60%, 80%
+        opacity: 1
     0%
-        -webkit-transform: rotate(15deg)
-        opacity: 0
-    10%
-        opacity: 1
-    90%
-        opacity: 1
+        -webkit-transform: rotate(40deg)
     100%
-        -webkit-transform: rotate(-15deg)
-        opacity: 0
+        -webkit-transform: rotate(-25deg)
 
 @keyframes rotate-sprite
-    0%
-        transform: rotate(15deg)
+    0%, 40%, 100%
         opacity: 0
-    10%
+    60%, 80%
         opacity: 1
-    90%
+    0%
+        transform: rotate(40deg)
+    100%
+        transform: rotate(-25deg)
+
+@-webkit-keyframes show-header
+    0%, 40%
+        -webkit-transform: translate(50%)
+        opacity: 0
+    70%, 80%
+        -webkit-transform: translate(0)
         opacity: 1
     100%
-        transform: rotate(-15deg)
+        -webkit-transform: translate(-100%)
+        opacity: 0
+
+@keyframes show-header
+    0%, 40%
+        transform: translate(50%)
+        opacity: 0
+    70%, 80%
+        transform: translate(0)
+        opacity: 1
+    100%
+        transform: translate(-100%)
         opacity: 0
