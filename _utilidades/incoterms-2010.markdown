@@ -19,6 +19,7 @@ Termos Internacionais de Comércio discriminados pela International Chamber of C
 | DAP | Delivered at Place Entregue no Local (local de destino nomeado) | Qualquer modalidade de transporte | Os bens são entregues no local de destino designado, desembaraçados para exportação, prontos para serem descarregados, sem desembaraço para importação ou pagamento de qualquer direito de importação. |
 | DDP | Delivered Duty Paid Entregue com Direitos Pagos (local de destino nomeado) | Qualquer modalidade de transporte | Os bens são entregues no local de destino designado, desembaraçados para exportação, prontos para serem descarregados, desembaraçados para importação e com pagamento dos direitos de importação. |
 
+-
 
 | Código | Bens embalados para venda | Bens nas instalações do vendedor | Transporte interior na origem | Desembaraço para exportação | Gastos de	manipulação na origem | Transporte Internacional | Seguro dos bens | Gastos de manipulação no destino | Desembaraço para importação | Transporte interior no destino | Entrega dos bens ao comprador |
 | EXW | • | o | o | o | o | o | o | o | o | o | o |
