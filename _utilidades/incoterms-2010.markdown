@@ -8,7 +8,6 @@ Termos Internacionais de Comércio discriminados pela International Chamber of C
 
 | Código | Descrição | Modalidade de transporte | Principais obrigações a cargo do Vendedor |
 | EXW | Ex Works Na Origem (local de entrega nomeado) | Qualquer modalidade de transporte | Os bens são entregues pelo vendedor quando ele os coloca à disposição do comprador, em suas instalações, sem carregamento e sem desembaraço para exportação. |
-
 | FCA | Free Carrier Livre no Transportador (local de entrega nomeado) | Qualquer modalidade de transporte | Os bens são entregues ao transportador designado pelo comprador; desembaraçados para exportação e carregados, se o local de entrega for o domicílio do vendedor. | 
 | FAS | Free Alongside Ship Livre ao Lado do Navio (porto de embarque nomeado) | Exclusivamente no transporte aquaviário (marítimo ou hidroviário interior) | Os bens são entregues ao lado do navio (ao longo do costado do navio), no cais ou em uma barcaça, no porto de embarque designado, desembaraçados para exportação. | 
 | FOB | Free on Board Livre a Bordo (porto de embarque nomeado) | 	Exclusivamente no transporte aquaviário (marítimo ou hidroviário interior) | Os bens são entregues a bordo do navio nomeado pelo comprador no porto de embarque designado, desembaraçados para exportação. | 
