@@ -18,3 +18,19 @@ Termos Internacionais de Comércio discriminados pela International Chamber of C
 | DAT | Delivered at Terminal Entregue no Terminal (terminal nomeado no porto ou local de destino) | Qualquer modalidade de transporte | Os bens são entregues no terminal (do porto ou do local de destino designado) desembaraçados para exportação e descarregados, sem desembaraço para importação ou pagamento de qualquer direito de importação. |
 | DAP | Delivered at Place Entregue no Local (local de destino nomeado) | Qualquer modalidade de transporte | Os bens são entregues no local de destino designado, desembaraçados para exportação, prontos para serem descarregados, sem desembaraço para importação ou pagamento de qualquer direito de importação. |
 | DDP | Delivered Duty Paid Entregue com Direitos Pagos (local de destino nomeado) | Qualquer modalidade de transporte | Os bens são entregues no local de destino designado, desembaraçados para exportação, prontos para serem descarregados, desembaraçados para importação e com pagamento dos direitos de importação. |
+
+
+| Código | Bens embalados para venda | Bens nas instalações do vendedor | Transporte interior na origem | Desembaraço para exportação | Gastos de	manipulação na origem | Transporte Internacional | Seguro dos bens | Gastos de anipulação no destino | Desembaraço para importação | Transporte interior no destino | Entrega dos bens ao comprador |
+| EXW | • | o | o | o | o | o | o | o | o | o | o |
+| FCA | • | • | • | • | o | o | o | o | o | o | o |
+| FAS | • | • | • | • | o | o | o | o | o | o | o |
+| FOB | • | • | • | • | € | o | o | o | o | o | o |
+| CFR | • | • | • | • | • | • | o | o | o | o | o |
+| CIF | • | • | • | • | • | • | • | o | o | o | o |
+| CPT | • | • | • | • | • | • | o | o | o | o | o |
+| CIP | • | • | • | • | • | • | • | o | o | o | o |
+| DAT | • | • | • | • | • | • | • | • | o | o | o |
+| DAP | • | • | • | • | • | • | • | • | o | • | • |
+| DDP | • | • | • | • | • | • | • | • | • | • | • |
+
+Vendedor • Comprador O Vendedor / Comprador C
