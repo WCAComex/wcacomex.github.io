@@ -94,39 +94,40 @@ date: 2017-10-23 00:20:00 -02:00
 - NOVA CALEDONIA: Noumea;
 - NIGÉRIA: Lagos;
 - NORUEGA: Bergen, Oslo, Stavanger;
-- NOVA ZELANDIA: Auckland, Tauranga
-- NICARÁGUA Corinto. Manâgua OMAM Muscat
-- PANAMÁ Balboa. Cristobal. Manzanillo
-- PAPUA NOVA GUINÉ: Port Moresby. Lae
-- PAQUISTÃO: Karachi
-- PERU: Callao. Chimbote. Matarani
-- POLÓNIA Gdynia
-- PORTO RICO: San Juan
-- PORTUGAL: Leixões Lisboa
-- QATAR: Doha
-- REPÚBLICA DOMINICANA: Rio Haina. Santo Domingo
-- ROMÉNIA: Constanza
-- RÚSSIA: San Petersburgo
-- SENEGAL: Dakar
-- SERRA LEOA Freetown
-- SERVIA E MONTENEGRO: Bar
-- SINGAPURA: Singapura
-- SÍRIA: Latakia. Tartous
-- SOMÁLIA: Mogadishu
-- SRILANKA: Colombo
-- SUDÃO: Port Sudan
-- SUÉCIA: Gothemburg. Helsingborg. Malmoe Stockholm
-- SANTA LUCIA: Sta. Lúcia
-- SURINAME: Paramaribo
-- TAHITI: Papeete
-- TAILÂNDIA: Bartgkok. Laem Chabang
-- TAIWAN: Kaosbiung Keelung. Taichung
-- TANZÀNIA: Dares-Salaam
-- TOGO Lome
-- TRINIDAD E TOBAGO: Port ofSpain
-- TUNÍSIA Tunis
-- TURQUIA Dennce. Iskendervm Istambul Izmir, Mersin
-- URUGUAI Montevtdeu
-- VENEZUELA La Guaíra. Maracaibo. Puerto Cabello. Valencia.Guanta. EI Guamache
-- VIETNAM Haiphong. Ho Chi Minn
-- ZAIRE: Matadt
+- NOVA ZELANDIA: Auckland, Tauranga;
+- NICARÁGUA: Corinto, Manágua;
+- OMAM: Muscat;
+- PANAMÁ: Balboa, Cristobal, Manzanillo;
+- PAPUA NOVA GUINÉ: Port Moresby, Lae;
+- PAQUISTÃO: Karachi;
+- PERU: Callao, Chimbote, Matarani;
+- POLÓNIA: Gdynia;
+- PORTO RICO: San Juan;
+- PORTUGAL: Leixões, Lisboa;
+- QATAR: Doha;
+- REPÚBLICA DOMINICANA: Rio Haina, Santo Domingo;
+- ROMÊNIA: Constanza;
+- RÚSSIA: San Petersburgo;
+- SENEGAL: Dakar;
+- SERRA LEOA: Freetown;
+- SERVIA E MONTENEGRO: Bar;
+- SINGAPURA: Singapura;
+- SÍRIA: Latakia, Tartous;
+- SOMÁLIA: Mogadishu;
+- SRI LANKA: Colombo;
+- SUDÃO: Port Sudan;
+- SUÉCIA: Gothemburg, Helsingborg, Malmoe, Stockholm;
+- SANTA LÚCIA: Sta. Lúcia;
+- SURINAME: Paramaribo;
+- TAHITI: Papeete;
+- TAILÂNDIA: Bangkok, Laem Chabang;
+- TAIWAN: Kaoshiung, Keelung, Taichung;
+- TANZÀNIA: Dar es-Salaam;
+- TOGO: Lome;
+- TRINIDAD E TOBAGO: Port of Spain;
+- TUNÍSIA: Tunis;
+- TURQUIA: Derince, Iskenderum, Istambul, Izmir, Mersin;
+- URUGUAI: Montevideu;
+- VENEZUELA La Guaira, Maracaibo, Puerto Cabello, Valencia, Guanta, El Guamache;
+- VIETNAM: Haiphong, Ho Chi Minn;
+- ZAIRE: Matadi.
