@@ -3,22 +3,25 @@ title: Países e seus Portos
 date: 2017-10-23 00:20:00 -02:00
 ---
 
-- ÁFRICA DO SUL Cape Town. Durban. East London. Fort Ehzabeth ALEMANHA. Bremen. Hamburgo. Wismar. Bremerhaven
-- ANGOLA. Cabinda. Lobito. Luanda. Namibe ANTIGUA: St. John‘s
-- ANTILHAS: Castnes. Kinastown. Montserrat. St. Baithéemy. St Kitts. St Martin. St. Vincent
-- ANTILHAS HOLANDESAS Aruba. Willemstad
-- ARABIA SAUDITA Dammam. Jeddali
-- ARGÉLIA: Argel. Mostaganem. Oran
-- ARGENTINA: Buenos Aires Campana. Rosáno
-- AUSTRÁLIA Adelaide. Brisbane. Fremantíe. Melboume Sidney
-- AÇORES: Angra BAHAMAS Freeport Nassau
-- BANGLADESH: Chittagong. Chatva
-- BAHRAIN: Bahrain
-- BARBADOS: Bridgetown
-- BÉLGICA Antuérpia Ghent
-- BELIZE Belize
-- BENIN: Cotonou
-- BERMUDA: Hamilton
+- ÁFRICA DO SUL: Cape Town, Durban, East London, Port Elizabeth;
+- ALEMANHA: Bremen, Hamburgo, Wismar, Bremerhaven;
+- ANGOLA: Cabinda, Lobito, Luanda, Namibe;
+- ANTIGUA: St. John's;
+- ANTILHAS: Castries, Kingstown, Montserrat, St. Barthéemy, St. Kitts, St. Martin, St. Vincent;
+- ANTILHAS HOLANDESAS: Aruba, Willemstad;
+- ARABIA SAUDITA: Dammam, Jeddah;
+- ARGÉLIA: Argel, Mostaganem, Oran;
+- ARGENTINA: Buenos Aires, Campana, Rosário;
+- AUSTRÁLIA: Adelaide, Brisbane, Fremantle, Melboume, Sidney;
+- AÇORES: Angra;
+- BAHAMAS: Freeport, Nassau;
+- BANGLADESH: Chittagong, Chalva;
+- BAHRAIN: Bahrain;
+- BARBADOS: Bridgetown;
+- BÉLGICA: Antuérpia, Ghent;
+- BELIZE: Belize;
+- BENIN: Cotonou;
+- BERMUDA: Hamilton;
 - BRASIL Angra dos Reis/RJ. Antonina/PR. Aracajú/SE Aratu/BA. Barra do Riacho/ES. Belém/PA. Cabedelo/PB CubatãcVSP. Fomo/RJ. FcrtaiezaCE. Hhéus/BA. Itaguai/RJ. Imbituba/SC. Itajal/SC. Itaqui/MA. Madeira/MA. Macapá/AP. MaceiéVAL Madre de Deus/BA. Manaus/AM. Natal/RN. NiterúoRJ. Paranaguá/PR Pecém/CE. Pelotas/RS. Ponta do SantarénvPA. Rio Grande/RS. Santos/SP. Sào Luiz/MA. São Francisco do Sul/SC São Sebastião/SP. Suape/PE. TubaràcSES. Vila do Conde/PA Vitória/ES
 - CABO VERDE: Mindelo. Praia
 - CAMARÕES: Douala
