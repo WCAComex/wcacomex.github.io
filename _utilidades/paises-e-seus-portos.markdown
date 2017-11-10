@@ -22,13 +22,13 @@ date: 2017-10-23 00:20:00 -02:00
 - BELIZE: Belize;
 - BENIN: Cotonou;
 - BERMUDA: Hamilton;
-- BRASIL Angra dos Reis/RJ. Antonina/PR. Aracajú/SE Aratu/BA. Barra do Riacho/ES. Belém/PA. Cabedelo/PB CubatãcVSP. Fomo/RJ. FcrtaiezaCE. Hhéus/BA. Itaguai/RJ. Imbituba/SC. Itajal/SC. Itaqui/MA. Madeira/MA. Macapá/AP. MaceiéVAL Madre de Deus/BA. Manaus/AM. Natal/RN. NiterúoRJ. Paranaguá/PR Pecém/CE. Pelotas/RS. Ponta do SantarénvPA. Rio Grande/RS. Santos/SP. Sào Luiz/MA. São Francisco do Sul/SC São Sebastião/SP. Suape/PE. TubaràcSES. Vila do Conde/PA Vitória/ES
-- CABO VERDE: Mindelo. Praia
-- CAMARÕES: Douala
-- CANADÁ Halifax. Hamilton. Montreal. St. John. Toronto. Vancouver
-- CHILE: Antofagasta Arica. Bahia Concepcion. Iquique. Punta Arenas SanAntorso Talcahuano. Valparaiso
-- CHINA Dahan, Guangzhou. Hangpu. Macau. Quingdao. Shangai Tianpn. Xingang
-- CHIPRE Lamaca. Umassoi
+- BRASIL: Angra dos Reis/RJ, Antonina/PR, Aracajú/SE, Aratu/BA, Barra do Riacho/ES, Belém/PA, Cabedelo/PB, Cubatãc/SP, Forno/RJ, Fortaleza/CE, Ihéus/BA, Itaguaí/RJ, Imbituba/SC, Itajaí/SC, Itaqui/MA, Madeira/MA, Macapá/AP, Maceié/AL, Madre de Deus/BA, Manaus/AM, Natal/RN, Niterói/RJ, Paranaguá/PR, Pecém/CE, Pelotas/RS, Ponta do Santarém/PA, Rio Grande/RS, Santos/SP, São Luiz/MA, São Francisco do Sul/SC, São Sebastião/SP, Suape/PE, Tubarão/ES, Vila do Conde/PA, Vitória/ES;
+- CABO VERDE: Mindelo, Praia;
+- CAMARÕES: Douala;
+- CANADÁ: Halifax, Hamilton, Montreal, St. John, Toronto, Vancouver;
+- CHILE: Antofagasta, Arica, Bahia Concepcion, Iquique, Punta Arenas, San Antonio, Talcahuano, Valparaiso;
+- CHINA: Dalian, Guangzhou, Hangpu, Macau, Quingdao, Shangai, Tianjin, Xingang;
+- CHIPRE: Lamaca, Limassol;
 - COLÔMBIA Barranquilla. Buenaventura. Cartagena. Santa Marta
 - CONGO Pomt Norre
 - CORÊIA DO SUL Busan
