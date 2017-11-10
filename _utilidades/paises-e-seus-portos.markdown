@@ -65,36 +65,36 @@ date: 2017-10-23 00:20:00 -02:00
 - ILHAS CANÁRIAS: Las Palmas, Sta. Cruz de Tenerife;
 - ILHAS FIJI: Suva;
 - ILHAS MAURITIUS: Port Louis;
-- ILHAS SALOMÃO: Honiera. hbeta
-- ILHAS VIRGENS St Crctx. St John. St. Thomas Tortola
-- ÍNDIA: Calcutá. Cochin. Medras. Mumbai
-- INDONÉSIA: Jakarta Surabaya
-- INGLATERRA CarOff. Fetotaw Hui/. Uverpool Londres Manchester. Portsmouth. Ttlbury
-- IRÃ Abbas. Bandar Khomemi
-- IRAQUE Basrah Umm Qasr
-- IRLANDA Dubbn
-- ISLÂNDIA Reykjavrk
-- ISRAEL Ashdod Harta
-- ITÁLIA Génova. Uvomo. Nápoles Salemo.
-- Tneste. Veneza Ravena Savona
-- JAMAICA Kingston
-- JAPÃO: Kobe. Nagoya Osaka Tokyo Yokohama
-- JORDÂNIA Aqaba
-- KENIA Mombasa
-- KUWAIT Kuwait
-- LÍBANO Beirute
-- LIBÉRIA: Monrovia
-- LÍBIA: Trípoli
-- MALÁSIA. Penang. Port Kelang. Kota Kinabalu
-- MALTA. Malta
-- MARROCOS. Casablanca
-- MARTINICA. Fort de France
-- MAURITANIA. Nouadhibou. Nouakchott
-- MÉXICO: Altamira. Tampico. Veracnrz. Manzantito
-- MOÇAMBIQUE Beira. Maputo
-- NOVA CALEDÓNIA: Noumea NIGÉRIA Lagos
-- NORUEGA: Bergen. Os. Stavanger
-- NOVA ZELANDIA: Auckland. Tauranga
+- ILHAS SALOMÃO: Honiera, Kieta;
+- ILHAS VIRGENS: St. Croix, St. John, St. Thomas Tortola;
+- ÍNDIA: Calcutá, Cochin, Madras, Mumbai;
+- INDONÉSIA: Jakarta, Surabaya;
+- INGLATERRA: Cardiff, Felixtowe, Hull, Liverpool, Londres, Manchester, Portsmouth, Tilbury;
+- IRÃ: Abbas, Bandar, Khomeini;
+- IRAQUE: Basrah, Umm Qasr;
+- IRLANDA: Dublin;
+- ISLÂNDIA: Reykjavik;
+- ISRAEL: Ashdod, Haifa;
+- ITÁLIA: Genova, Livorno, Nápoles, Salermo, Trieste, Veneza, Ravena, Savona;
+- JAMAICA: Kingston;
+- JAPÃO: Kobe, Nagoya, Osaka, Tokyo, Yokohama;
+- JORDÂNIA: Aqaba;
+- KENIA: Mombasa;
+- KUWAIT: Kuwait;
+- LÍBANO: Beirute;
+- LIBÉRIA: Monrovia;
+- LÍBIA: Trípoli;
+- MALÁSIA: Penang, Port Kelang, Kota Kinabalu;
+- MALTA: Malta;
+- MARROCOS: Casablanca;
+- MARTINICA: Fort de France;
+- MAURITANIA: Nouadhibou; Nouakchott;
+- MÉXICO: Altamira, Tampico, Veracruz, Manzanillo;
+- MOÇAMBIQUE: Beira, Maputo;
+- NOVA CALEDONIA: Noumea;
+- NIGÉRIA: Lagos;
+- NORUEGA: Bergen, Oslo, Stavanger;
+- NOVA ZELANDIA: Auckland, Tauranga
 - NICARÁGUA Corinto. Manâgua OMAM Muscat
 - PANAMÁ Balboa. Cristobal. Manzanillo
 - PAPUA NOVA GUINÉ: Port Moresby. Lae
