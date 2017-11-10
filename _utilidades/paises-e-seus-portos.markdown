@@ -29,41 +29,42 @@ date: 2017-10-23 00:20:00 -02:00
 - CHILE: Antofagasta, Arica, Bahia Concepcion, Iquique, Punta Arenas, San Antonio, Talcahuano, Valparaiso;
 - CHINA: Dalian, Guangzhou, Hangpu, Macau, Quingdao, Shangai, Tianjin, Xingang;
 - CHIPRE: Lamaca, Limassol;
-- COLÔMBIA Barranquilla. Buenaventura. Cartagena. Santa Marta
-- CONGO Pomt Norre
-- CORÊIA DO SUL Busan
-- COSTA DO MARFIM: Abidjan
-- COSTA RICA: Puerto Limon. Puerto Cafdena
-- CROÁCIA Rijeka
-- CUBA: Havana
-- DINAMARCA: Aarhus Copenhagen. Koge
-- DJIBOUTI: Dfibouti
-- EL SALVADOR San Salvador
-- EGITO. Alexandria Port Said
-- EMIRADOS ARABES UNIDOS. Abu Dhabi. Dubai. Sharjah
-- EQUADOR. Esmeraldas. Guayaquil
-- ESPANHA. Aigeoras Aàcanta Barcelona. Bilbao. Cadiz. Pasajes. Valenoa. Vigo
-- ESLOVÉNIA. Koper
-- ESTADOS UNIDOS Battimore Boston Brownsville Charleston. Chicago. Galveston. Houston Jacksorrvte. LongBeach LosAngeles. Miami. Mobile. New Haven. New Oríeans. New York. Norfolk. Oatíand PhSadelphia Port Everglades. Portland. San Francisco. Savannah. Seatlle. Tacoma. Tampa WBmington
-- FILIPINAS Maruia
-- FINLÂNDIA: hielsmkj
-- FRANÇA: Le Havre. Marselha. Sete. Lorient. Montoir
-- GABÃO: LibreviHe
-- GANA. Tema
-- GRÉCIA Eleusis. Piraeus. Salonica. Volos
-- GRENADA St George's Grenada
-- GUADALOUPE Pomt a Pitre
-- GUATEMALA Puerto Quetzal Sto Tomas de Casti/la
-- GUINÉ BISSAU: Bissau
-- GUINÉ: Conakry
-- GUIANA: Georgetovm
-- HAITI: Port au Prince
-- HOLANDA Amsterdam. Fhjshing. Rotterdam
-- HONDURAS: Puerto Cortes
-- HONG KONG Hong Kong
-- IEMEN: Aden. Hoderdah
-- ILHAS CANÁRIAS Las Palmas. Sta. Cruz de Terterife ILHAS FUI Suva
-- ILHAS MAURITIUS PortLouis
+- COLÔMBIA: Barranquilla, Buenaventura, Cartagena, Santa Marta;
+- CONGO: Point Noire;
+- CORÊIA DO SUL: Busan;
+- COSTA DO MARFIM: Abidjan;
+- COSTA RICA: Puerto Limon, Puerto Caldeira;
+- CROÁCIA: Rijeka;
+- CUBA: Havana;
+- DINAMARCA: Aarhus, Copenhagen, Koge;
+- DJIBOUTI: Djibouti;
+- EL SALVADOR: San Salvador;
+- EGITO: Alexandria, Port Said;
+- EMIRADOS ÁRABES UNIDOS: Abu Dhabi, Dubai, Sharjah;
+- EQUADOR: Esmeraldas, Guayaquil;
+- ESPANHA: Algeciras, Alicante, Barcelona, Bilbao, Cadiz, Pasajes, Valencia, Vigo;
+- ESLOVÉNIA: Koper;
+- ESTADOS UNIDOS: Baltimore, Boston, Brownsville, Charleston, Chicago, Galveston, Houston, Jacksonville, Long Beach, Los Angeles, Miami, Mobile, New Haven, New Orleans, New York, Norfolk, Oakland, Philadelphia, Port Everglades, Portland, San Francisco, Savannah, Seatlle, Tacoma, Tampa, Wilmington;
+- FILIPINAS: Manila;
+- FINLÂNDIA: helsinki;
+- FRANÇA: Le Havre, Marselha, Sete, Lorient, Montoir;
+- GABÃO: Libreville;
+- GANA: Tema;
+- GRÉCIA: Eleusis, Piraeus, Salonica, Volos;
+- GRENADA: St. George's, Grenada;
+- GUADALOUPE: Point a Pitre;
+- GUATEMALA: Puerto Quetzal, Sto. Tomas de Castilla;
+- GUINÉ BISSAU: Bissau;
+- GUINÉ: Conakry;
+- GUIANA: Georgetown;
+- HAITI: Port au Prince;
+- HOLANDA: Amsterdam, Fhushing, Rotterdam;
+- HONDURAS: Puerto Cortes;
+- HONG KONG: Hong Kong;
+- IEMEN: Aden, Hodeidah;
+- ILHAS CANÁRIAS: Las Palmas, Sta. Cruz de Tenerife;
+- ILHAS FIJI: Suva;
+- ILHAS MAURITIUS: Port Louis;
 - ILHAS SALOMÃO: Honiera. hbeta
 - ILHAS VIRGENS St Crctx. St John. St. Thomas Tortola
 - ÍNDIA: Calcutá. Cochin. Medras. Mumbai
