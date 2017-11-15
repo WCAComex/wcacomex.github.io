@@ -1,11 +1,23 @@
 <footer class="site-footer">
 
-  <div class="wrapper" data-grid="row nowrap center spacing">
+  <div class="wrapper" data-grid="spacing">
 
-    <div data-cell="2of3">
-      <h2 class="footer-heading">{{ site.title }}</h2>
-      <p>{{ site.description }}</p>
+    <div data-cell="1of3">
+      <h2 class="footer-heading">{{ site.long-title }}</h2>
+      <p>{{ site.endereco }}<br>{{ site.localidade }}</p>
     </div>
+
+    <ul class="seamless" data-cell="1of3">
+      {% for tel in site.telefones %}
+        <li>
+          {% if tel.numero %}
+            <a href="tel:{{ tel.numero }}" class="tel">{{ tel.rotulo }}</a>
+          {% else %}
+            <span class="tel">{{ tel.rotulo }}</span>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
 
     <div data-cell="shrink">
       <ul class="seamless">
