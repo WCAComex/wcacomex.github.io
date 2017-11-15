@@ -6,15 +6,11 @@
 
     &hero
         padding: 0
-    &features
-        @extend %section-spacing
-        background:
-            image: url('#{$baseurl}/img/igor-ovsyannykov-151127.jpg')
-            position: center
-            repeat: no-repeat
-            size: cover
 
     &services
+        @extend %section-spacing
+        +media-query($on-palm)
+            padding: $spacing-unit / 4 $spacing-unit / 2
         article
             padding: $spacing-unit
             margin: $spacing-unit / 2
@@ -32,6 +28,21 @@
             max-width: 80%
             +media-query($on-palm)
                 max-width: 60%
+
+    &features
+        padding-top: 300px
+        padding-bottom: 300px
+        background:
+            image: url('#{$baseurl}/img/igor-ovsyannykov-151127.jpg')
+            position: center
+            repeat: no-repeat
+            // attachment: fixed
+            size: cover
+        text-align: center
+        font-size: 2em
+        color: #fff
+        text-shadow: -1px 1px 1px #000
+
     &about
         @extend %section-spacing
         line-height: 1.6

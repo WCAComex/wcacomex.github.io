@@ -1,9 +1,8 @@
+import parallax from './libs/parallax';
 
-function ok({id, test}) {
-    console.log(id, test);
-}
-
-const id = 1;
-const test = true;
-
-ok({ id, test });
+const parallaxContainer = document.querySelector('.section-features');
+parallaxContainer.style.overflow = 'hidden';
+parallax(parallaxContainer, {
+    '.feature-icon': 2, 
+    '.feature-text': 2
+});
