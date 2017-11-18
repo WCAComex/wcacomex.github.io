@@ -30,8 +30,6 @@
                 max-width: 60%
 
     &features
-        padding-top: 300px
-        padding-bottom: 300px
         background:
             image: url('#{$baseurl}/img/igor-ovsyannykov-151127.jpg')
             position: center
@@ -41,6 +39,14 @@
         font-size: 2em
         color: #fff
         text-shadow: -1px 1px 1px #000
+        padding-top: 100px
+        padding-bottom: 100px
+        +media-greater($on-palm)
+            padding-top: 200px
+            padding-bottom: 200px
+        +media-greater($on-laptop)
+            padding-top: 300px
+            padding-bottom: 300px
 
         .wrapper > *
             backface-visibility: hidden
