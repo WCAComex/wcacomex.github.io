@@ -42,8 +42,10 @@
         color: #fff
         text-shadow: -1px 1px 1px #000
 
-        > *
-            @extend %transition
+        .wrapper > *
+            backface-visibility: hidden
+            -webkit-transition: 10ms
+            transition: 10ms
 
     &about
         @extend %section-spacing
