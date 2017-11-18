@@ -36,12 +36,14 @@
             image: url('#{$baseurl}/img/igor-ovsyannykov-151127.jpg')
             position: center
             repeat: no-repeat
-            // attachment: fixed
             size: cover
         text-align: center
         font-size: 2em
         color: #fff
         text-shadow: -1px 1px 1px #000
+
+        > *
+            @extend %transition
 
     &about
         @extend %section-spacing
