@@ -4,20 +4,18 @@
 
     <div data-cell="1of3">
       <h2 class="footer-heading">{{ site.long-title }}</h2>
-      <p>{{ site.endereco }}<br>{{ site.localidade }}</p>
-    </div>
-
-    <ul class="seamless" data-cell="1of3">
+      <p>{{ site.endereco }} - {{ site.localidade }}</p>
       {% for tel in site.telefones %}
-        <li>
+        <p>
           {% if tel.numero %}
             <a href="tel:{{ tel.numero }}" class="tel">{{ tel.rotulo }}</a>
           {% else %}
             <span class="tel">{{ tel.rotulo }}</span>
           {% endif %}
-        </li>
+        </p>
       {% endfor %}
-    </ul>
+    </div>
+
 
     <div data-cell="shrink">
       <ul class="seamless">
