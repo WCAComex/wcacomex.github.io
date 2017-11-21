@@ -1,5 +1,5 @@
 
-<div data-grid="center wrap">
+<div data-grid="center stretch wrap">
 
     {% for servico in site.servicos %}
 
@@ -8,7 +8,7 @@
             <h4>{{ servico.title }}</h4>
             {{ servico.excerpt | truncatewords: 30 }}
             <p data-cell="shrink">
-                <a href="{{ site.baseurl }}{{ servico.url }}" data-btn>Saiba mais</a>
+                <a href="{{ site.baseurl }}{{ servico.url }}">Saiba mais</a>
             </p>
 
         </article>

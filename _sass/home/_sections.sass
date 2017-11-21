@@ -7,8 +7,6 @@
         padding-top: 50px
         padding-bottom: 50px
         text-align: center
-        font-size: 2em
-        text-shadow: -1px 1px 1px #000
         color: #fff
         background:
             color: rgba(#000, .5)
@@ -26,6 +24,14 @@
                 backface-visibility: hidden
                 -webkit-transition: 10ms
                 transition: 10ms
+        
+        .hero-title, .hero-tagline
+            font-size: 2em
+            text-shadow: -1px 1px 1px #000
+        .hero-title
+            font-size: 3.5em
+        .hero-tagline
+            font-size: 1.8em
         
         .video-bg
             position: absolute
@@ -69,6 +75,7 @@
     &about
         padding-top: $spacing-unit * 2
         padding-bottom: $spacing-unit * 2
+        border-top: 1px solid $grey-color-light
         line-height: 1.6
         p
             letter-spacing: 1px
