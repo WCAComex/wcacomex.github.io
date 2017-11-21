@@ -2,7 +2,9 @@
 
     padding-left: $spacing-unit
     padding-right: $spacing-unit
-    background-color: $brand-color
+    background:
+        color: $brand-color
+        image: linear-gradient(135deg, $brand-color, $brand-color-dark)
     color: #fff
     +media-query($on-laptop)
         padding-left: $spacing-unit / 2
@@ -21,10 +23,10 @@
             color: $grey-color-dark
     
     &.dark
-        background-color: $grey-color-dark
+        background: $grey-color-dark
     
     &.light
-        background-color: $grey-color-light
+        background: $grey-color-light
         color: $text-color
 
         a
