@@ -1,17 +1,16 @@
 console.time('Execução do script');
 
-import parallax from './libs/parallax';
-
-const parallaxContainer = document.querySelector('.section-features');
-
-parallaxContainer.style.overflow = 'hidden';
-parallax(parallaxContainer, [{
-    element: '.feature-icon', level: 2
-}, {
-    element: '.feature-text', level: 2
-}]);
-
+const parallaxContainer = document.querySelector('.section-hero');
+const parallaxContent = parallaxContainer.querySelector('.wrapper');
 const mapContainer = document.querySelector('#map-container');
+
+
+window.addEventListener('scroll', function() {
+    if (scrollY > parallaxContainer.offsetTop + parallaxContainer.offsetHeight) return false;
+    parallaxContent.style.transform = `translateY(${scrollY / 3}px)`;
+});
+
+
 window.addEventListener('scroll', function scrollToMap() {
     
     if (scrollY + innerHeight < mapContainer.offsetTop) return false;
