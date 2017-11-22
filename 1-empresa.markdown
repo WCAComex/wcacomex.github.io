@@ -19,4 +19,4 @@ A WCA é especialista na prestação de serviços de comércio internacional, co
 
 ## Como fazemos
 
-A WCA, fundada em 1987 por profissionais determinados e com grande experiência nos mercados internacional e cambial, atua de forma ética e oferece serviços de qualidade com profundo conhecimento técnico. São mais de 25 anos de atividades que resultaram em experiência traduzida no domínio das regras e normas que norteiam as transações do comércio exterior. A equipe é comprometida com a filosofia de trabalho da empresa: transparência na condução dos negócios e respeito nas relações comerciais.
+A WCA, fundada em 1987 por profissionais determinados e com grande experiência nos mercados internacional e cambial, atua de forma ética e oferece serviços de qualidade com profundo conhecimento técnico. São mais de 30 anos de atividades que resultaram em experiência traduzida no domínio das regras e normas que norteiam as transações do comércio exterior. A equipe é comprometida com a filosofia de trabalho da empresa: transparência na condução dos negócios e respeito nas relações comerciais.

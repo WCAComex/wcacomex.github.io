@@ -7,7 +7,9 @@ Em 25 anos de atividades, a WCA adquiriu experiência para gerenciar processos l
 
 A WCA avalia e define a operação logística adequada às necessidades da sua empresa. Supervisiona todas as etapas sempre atenta à movimentação da mercadoria e ao cumprimento de prazos. O bom gerenciamento é focado na obtenção de resultados.
 
-Serviços prestados:  
+---
+
+## Serviços prestados:  
 
 Logística Integrada Door to Door;
 
