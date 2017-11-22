@@ -1,6 +1,7 @@
 ---
 title: Exportação
 date: 2017-10-22 21:17:00 -02:00
+image: "/uploads/container-2568956.jpg"
 ---
 
 Sua empresa contrata os serviços e a WCA administra, executa e acompanha todas as etapas da operação, desde a assessoria nos trâmites iniciais até a chegada da mercadoria em seu destino. Os procedimentos operacionais seguem fielmente as determinações dos órgãos de regulamentação da administração federal brasileira.

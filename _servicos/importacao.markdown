@@ -1,11 +1,14 @@
 ---
 title: Importação
 date: 2017-10-22 21:30:00 -02:00
+image: "/uploads/import-export.jpg"
 ---
 
 A WCA assiste o cliente desde o início, no levantamento de informações para a análise de custos, que servirá para a decisão de compra, passando pelas etapas documental, operacional, logística e cambial da importação. Cuida para que o processo seja realizado estritamente de acordo com as normas de importação vigentes e para que a mercadoria seja recebida sem complicações.
 
 A experiência da equipe da WCA, aliada à capacitação de despachantes aduaneiros, facilita a liberação das mercadorias importadas por seus clientes.
+
+---
 
 ## Serviços prestados:  
 
