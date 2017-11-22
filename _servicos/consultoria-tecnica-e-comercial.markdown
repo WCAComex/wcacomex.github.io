@@ -1,6 +1,7 @@
 ---
 title: Consultoria técnica e comercial
 date: 2017-10-22 21:34:00 -02:00
+image: "/uploads/office-1209640.jpg"
 ---
 
 A WCA utiliza toda a sua experiência para analisar, orientar e oferecer suporte técnico no estudo de viabilidade de projeto, operação e implantação de procedimento voltado ao comércio exterior. Pode dar apoio em negociações e participar de encontros decisivos para o seu negócio.
