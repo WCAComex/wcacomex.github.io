@@ -32,7 +32,7 @@ defaults:
     type: utilidades
   values:
     layout: page
-description: Inteligência em comércio exterior.
+description: Inteligência em comércio exterior
 baseurl: 
 url: http://wca.com.br
 markdown: kramdown

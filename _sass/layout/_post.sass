@@ -26,17 +26,9 @@
         figure, table, %vertical-rhythm
             @extend .wrapper
 
-    h2 
-        font-size: 32px
-        @include media-query($on-laptop) 
-            font-size: 28px
+        h1, h2, h3, h4, h5, h6
+            margin-top: $spacing-unit
+            margin-bottom: $spacing-unit
 
-    h3 
-        font-size: 26px
-        @include media-query($on-laptop) 
-            font-size: 22px
-
-    h4 
-        font-size: 20px
-        @include media-query($on-laptop) 
-            font-size: 18px
+        ul, ol
+            padding-left: $spacing-unit * 2

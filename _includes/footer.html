@@ -5,15 +5,15 @@
     <div data-cell="1of3">
       <h2 class="footer-heading">{{ site.long-title }}</h2>
       <p>{{ site.endereco }} - {{ site.localidade }}</p>
-      {% for tel in site.telefones %}
-        <p>
+      <p data-grid="spacing">
+        {% for tel in site.telefones %}
           {% if tel.numero %}
             <a href="tel:{{ tel.numero }}" class="tel">{{ tel.rotulo }}</a>
           {% else %}
             <span class="tel">{{ tel.rotulo }}</span>
           {% endif %}
-        </p>
-      {% endfor %}
+        {% endfor %}
+      </p>
     </div>
 
 
