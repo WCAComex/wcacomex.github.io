@@ -8,6 +8,8 @@ A WCA assiste o cliente desde o início, no levantamento de informações para a
 
 A experiência da equipe da WCA, aliada à capacitação de despachantes aduaneiros, facilita a liberação das mercadorias importadas por seus clientes.
 
+---
+
 ## Serviços prestados:  
 
 Tratamento administrativo no âmbito do Decex;
