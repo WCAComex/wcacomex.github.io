@@ -22,13 +22,13 @@ defaults:
     type: posts
   values:
     layout: post
-    img:
+    img: 
 - scope:
     path: ''
     type: servicos
   values:
     layout: page
-    img:
+    img: 
 - scope:
     path: ''
     type: utilidades
