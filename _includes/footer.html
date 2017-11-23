@@ -14,6 +14,9 @@
           {% endif %}
         </p>
       {% endfor %}
+      {% if site.email %}
+        <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      {% endif %}
     </div>
 
 
