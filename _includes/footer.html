@@ -15,7 +15,7 @@
         </p>
       {% endfor %}
       {% if site.email %}
-        <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        <p><a href="mailto:{{ site.email }}" class="icon">{% include svg/email.svg %} {{ site.email }}</a></p>
       {% endif %}
     </div>
 
