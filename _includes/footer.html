@@ -8,9 +8,9 @@
       <p data-grid="spacing">
         {% for tel in site.telefones %}
           {% if tel.numero %}
-            <a href="tel:{{ tel.numero }}" class="tel">{{ tel.rotulo }}</a>
+            <a href="tel:{{ tel.numero }}" class="tel icon">{% include svg/tel-old.svg %} {{ tel.rotulo }}</a>
           {% else %}
-            <span class="tel">{{ tel.rotulo }}</span>
+            <span class="tel icon">{% include svg/tel-old.svg %} {{ tel.rotulo }}</span>
           {% endif %}
         {% endfor %}
       </p>
