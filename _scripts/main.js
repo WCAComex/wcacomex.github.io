@@ -2,16 +2,16 @@ console.time('Execução do script');
 
 import htmlComp from './libs/htmlComp';
 
-const parallaxContainer = document.querySelector('.section-hero');
-const parallaxContent = parallaxContainer.querySelector('.hero-content');
+const siteHeader = document.querySelector('.site-header');
+const parallaxContainer = document.querySelector('.parallax-container');
+const parallaxContent = parallaxContainer.querySelector('.parallax-content');
 const mapContainer = document.querySelector('#map-container');
 
-
-window.addEventListener('scroll', function() {
+if (parallaxContainer && parallaxContent) window.addEventListener('scroll', function() {
     if (scrollY > parallaxContainer.offsetTop + parallaxContainer.offsetHeight) return false;
     parallaxContent.style.transform = `translateY(${scrollY / 3}px)`;
+    siteHeader.style.transform = `translateY(${scrollY / 2}px)`;
 });
-
 
 window.addEventListener('scroll', function scrollToMap() {
     
