@@ -2,7 +2,13 @@
 layout: default
 ---
 
-{% if page.image %}<img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}" width="100%">{% endif %}
+{% if page.image %}
+  <img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}" width="100%">
+{% else %}{% assign page_image = page.permalink | remove: '/' | append: '-image' %}
+  {% if page_image %}
+    <img src="{{ site.baseurl }}{{ site[page_image] }}" alt="{{ page.title }}" width="100%">
+  {% endif %}
+{% endif %}
 
 <article class="post page-content">
 
