@@ -60,13 +60,13 @@
     +variant(small-spacing)
         +media-greater($on-palm)
             > :not(:last-child):not([data-cell~="order-1"])
-                margin-right: $spacing-unit / 4
+                margin-right: $spacing-unit / 3
             > [data-cell~="order-1"]
-                margin-left: $spacing-unit / 4
+                margin-left: $spacing-unit / 3
 
         +media-query($on-palm)
             > *
-                margin-bottom: $spacing-unit / 4
+                margin-bottom: $spacing-unit / 3
 
     +module(cell)
         +variant(1of2)
@@ -136,7 +136,7 @@
         &[data-grid~="small-spacing"]
             > :not(:last-child)
                 &, &[data-cell~="order-1"]
-                    margin-right: $spacing-unit / 4
+                    margin-right: $spacing-unit / 3
 
     +media-query($on-palm)
         &:not([data-grid~="row"])
