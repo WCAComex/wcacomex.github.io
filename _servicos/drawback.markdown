@@ -2,6 +2,7 @@
 title: Drawback
 date: 2017-10-22 21:45:00 -02:00
 image: "/uploads/drawback.jpg"
+ordem: 4
 ---
 
 As operações de drawback são facilitadas pelo conhecimento técnico da WCA nessa área. A obtenção do benefício de incentivo à exportação é tratada com precisão e segurança. A meta é a sua realização de forma clara e simples.
