@@ -46,7 +46,6 @@ telefones:
   rotulo: "+55 (11) 2136-8483"
 email: wca@wca.com.br
 servicos-image: "/uploads/business-561388-1fa47d.jpg"
-
 baseurl: 
 url: http://wca.com.br
 markdown: kramdown
