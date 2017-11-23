@@ -18,6 +18,10 @@ A empresa possui departamentos independentes com recursos e integração funcion
 
 A WCA é especialista na prestação de serviços de comércio internacional, com ênfase na gestão de processos de exportação, importação, drawback e operações especiais. A empresa tem domínio nas áreas documental, operacional, logística e cambial.
 
+
+![notebook](/uploads/office-2717014.jpg)
+
+
 ## Como fazemos
 
 A WCA, fundada em 1987 por profissionais determinados e com grande experiência nos mercados internacional e cambial, atua de forma ética e oferece serviços de qualidade com profundo conhecimento técnico. São mais de 30 anos de atividades que resultaram em experiência traduzida no domínio das regras e normas que norteiam as transações do comércio exterior. A equipe é comprometida com a filosofia de trabalho da empresa: transparência na condução dos negócios e respeito nas relações comerciais.
