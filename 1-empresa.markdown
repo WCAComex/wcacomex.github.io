@@ -13,7 +13,7 @@ A WCA é uma empresa consolidada no mercado com sua expertise em otimizar proces
 Com equipe altamente capacitada, trabalha de forma integrada aos departamentos de exportação e importação dos clientes e desenvolve soluções através de estudos personalizados.
 
 A empresa possui departamentos independentes com recursos e integração funcional, que permitem agilidade e segurança nas operações. Todos os serviços confiados à equipe da WCA são executados de maneira linear, com qualidade, eficiência e dentro de prazos estabelecidos.
-
+![imagem do cartaz](/uploads/business-561388-1fa47d.jpg)
 ## O que fazemos
 
 A WCA é especialista na prestação de serviços de comércio internacional, com ênfase na gestão de processos de exportação, importação, drawback e operações especiais. A empresa tem domínio nas áreas documental, operacional, logística e cambial.
