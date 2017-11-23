@@ -4,7 +4,7 @@ date: 2017-10-22 21:05:00 -02:00
 permalink: "/empresa/"
 nav-title: Empresa
 is_about_page: true
-image: "/uploads/Screen%20shot%202017-11-22%20at%2023.17.38.png"
+image: "/uploads/fachada.png"
 layout: page
 ---
 
