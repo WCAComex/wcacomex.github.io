@@ -20,7 +20,7 @@ A WCA é especialista na prestação de serviços de comércio internacional, co
 
 
 
-![imagem do cartaz](/uploads/business-561388-1fa47d.jpg)
+![office-2717014.jpg](/uploads/office-2717014.jpg)
 
 
 ## Como fazemos
