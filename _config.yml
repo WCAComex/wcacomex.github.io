@@ -9,7 +9,6 @@ collections:
     title: Serviços
     output: true
     permalink: "/servicos/:path/"
-    image: "/uploads/container-2568956.jpg"
   uploads:
     title: Uploads
     output: true
