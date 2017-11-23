@@ -14,6 +14,7 @@ Com equipe altamente capacitada, trabalha de forma integrada aos departamentos d
 
 A empresa possui departamentos independentes com recursos e integração funcional, que permitem agilidade e segurança nas operações. Todos os serviços confiados à equipe da WCA são executados de maneira linear, com qualidade, eficiência e dentro de prazos estabelecidos.
 
+
 ![imagem do cartaz](/uploads/business-561388-1fa47d.jpg)
 
 ## O que fazemos
