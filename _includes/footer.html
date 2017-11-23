@@ -6,15 +6,15 @@
       <h2 class="footer-heading">{{ site.long-title }}</h2>
       <p>{{ site.endereco }} - {{ site.localidade }}</p>
       {% for tel in site.telefones %}
-        <p data-grid="small-spacing">
-          <span class="icon" data-cell="shrink">{% include svg/tel-old.svg %}</span>
-          <a href="tel:{{ tel.numero }}" class="tel" data-cell="shrink"> {{ tel.rotulo }}</a>
+        <p>
+          <span class="icon">{% include svg/tel-old.svg %}</span>
+          <a href="tel:{{ tel.numero }}" class="tel"> {{ tel.rotulo }}</a>
         </p>
       {% endfor %}
       {% if site.email %}
-        <p data-grid="small-spacing">
-          <span class="icon" data-cell="shrink">{% include svg/email.svg %}</span>
-          <a href="mailto:{{ site.email }}" data-cell="shrink">{{ site.email }}</a>
+        <p>
+          <span class="icon">{% include svg/email.svg %}</span>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
         </p>
       {% endif %}
     </div>
