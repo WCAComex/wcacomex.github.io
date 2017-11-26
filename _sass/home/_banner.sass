@@ -16,7 +16,7 @@ $banner-animation-duration: 21s
         display: block
         height: 0
         padding-bottom: 140%
-        margin: 0% -20%  -90%
+        margin: 0 -20% -90% -20%
         backface-visibility: hidden
         -webkit-transform: rotate(-60deg)
         transform: rotate(-60deg)
@@ -26,17 +26,13 @@ $banner-animation-duration: 21s
             background-image: url('#{$baseurl}/img/home/globo-sm.jpg')
         +media-greater($on-laptop)
             background-image: url('#{$baseurl}/img/home/globo.jpg')
+        +media-greater($on-palm)
+            left: 20%
     .step
         position: absolute
         left: 50%
         text-align: center
         height: 100%
-        .step-excerpt
-            position: absolute
-            top: 7%
-            left: 0
-            -webkit-animation: show-header $banner-animation-duration / 3 ease-in-out infinite
-            animation: show-header $banner-animation-duration / 3 ease-in-out infinite
         &.step-ship
             -webkit-transform: translateX(-50%) rotate(180deg)
             transform: translateX(-50%) rotate(180deg)
@@ -141,25 +137,3 @@ $banner-animation-duration: 21s
         transform: rotate(40deg)
     100%
         transform: rotate(-25deg)
-
-@-webkit-keyframes show-header
-    0%, 30%
-        -webkit-transform: translate(50%)
-        opacity: 0
-    50%, 70%
-        -webkit-transform: translate(0)
-        opacity: 1
-    90%, 100%
-        -webkit-transform: translate(-100%)
-        opacity: 0
-
-@keyframes show-header
-    0%, 30%
-        transform: translate(50%)
-        opacity: 0
-    50%, 70%
-        transform: translate(0)
-        opacity: 1
-    90%, 100%
-        transform: translate(-100%)
-        opacity: 0

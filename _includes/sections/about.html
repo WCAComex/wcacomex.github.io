@@ -1,19 +1,18 @@
 
 <div class="about-content">
+
+    {% assign about_page = site.pages | where: 'is_about_page', true | first %}
+    {% if about_page %}
+
+        <h2 class="about-title"><a href="{{ site.baseurl }}{{ about_page.url }}">Sobre a WCA</a></h2>
+        <p>
+            {{ about_page.content | markdownify | strip_html | strip_newlines | truncatewords: 20 }}
+            <a href="{{ site.baseurl }}{{ about_page.url }}"> continue lendo</a>.
+        </p>
     
-    <div class="wrapper">
-        {% assign about_page = site.pages | where: 'is_about_page', true | first %}
-        {% if about_page %}
-    
-            <h2><a href="{{ site.baseurl }}{{ about_page.url }}">Sobre a WCA</a></h2>
-            <p>
-                {{ about_page.content | markdownify | strip_html | strip_newlines | truncatewords: 20 }}
-            </p>
-        
-        {% endif %}
-    
-        <p data-grid="center"><a href="#contato" data-btn data-cell="shrink fill">Contrate agora mesmo!</a></p>
-    </div>
+    {% endif %}
+
+    <p><a href="#contato" data-btn>Contrate agora mesmo!</a></p>
 
 </div>
 
@@ -21,19 +20,16 @@
 
     <div class="globo">
         <div class="step step-truck">
-            <h3 class="step-excerpt">Caminhão</h3>
             <div class="sprite sprite-truck">
                 <img src="{{ site.baseurl }}/img/home/truck.png" width="50%" alt="caminhão">
             </div>
         </div>
         <div class="step step-plane">
-            <h3 class="step-excerpt">Avião</h3>
             <div class="sprite sprite-plane">
                 <img src="{{ site.baseurl }}/img/home/plane.png" width="50%" alt="avião">
             </div>
         </div>
         <div class="step step-ship">
-            <h3 class="step-excerpt">Navio</h3>
             <div class="sprite sprite-ship">
                 <img src="{{ site.baseurl }}/img/home/ship.png" width="50%" alt="navio">
             </div>

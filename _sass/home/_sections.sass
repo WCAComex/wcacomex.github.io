@@ -124,13 +124,25 @@
         line-height: 1.6
         background: #4892c7
         .about-content
-            position: absolute
-            top: $spacing-unit / 2
-            left: $spacing-unit / 2
-            max-width: 500px
+            position: relative
             z-index: 99
+            padding-left: $spacing-unit / 2
+            padding-right: $spacing-unit / 2
+            +media-greater($on-palm)
+                position: absolute
+                top: 5%
+                left: 5%
+                right: 5%
+                font-size: 2vw
+        .about-title
+            font-size: 1.6em
         p
             letter-spacing: 1px
+        +media-query($on-palm)
+            p
+                line-height: 1.2
+            .banner
+                margin-top: -20%
     
     &mapa
         padding: 0
