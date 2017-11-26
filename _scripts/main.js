@@ -7,6 +7,8 @@ const parallaxContainer = document.querySelector('.parallax-container');
 const parallaxContent = parallaxContainer.querySelector('.parallax-content');
 const mapContainer = document.querySelector('#map-container');
 
+document.body.addEventListener('touchstart', () => {});
+
 if (parallaxContainer && parallaxContent) window.addEventListener('scroll', function() {
     if (scrollY > parallaxContainer.offsetTop + parallaxContainer.offsetHeight) return false;
     parallaxContent.style.transform = `translateY(${scrollY / 3}px)`;
