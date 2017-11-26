@@ -21,3 +21,13 @@
         text-decoration: none
         box-shadow: 0 3px 8px 0 rgba(black, .5)
         transform: translateY(-1px)
+    
+    +variant(link)
+        &, &:hover, &:focus, &:active
+            background: none
+            border: 0 none
+            color: $brand-color
+            box-shadow: none
+            transform: translate(0)
+            &:hover, &:focus, &:active
+                color: $text-color

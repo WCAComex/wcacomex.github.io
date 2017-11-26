@@ -5,11 +5,13 @@ $banner-animation-duration: 21s
     overflow: hidden
     padding-bottom: 0
     background-color: #4892c7
+    +media-greater($on-palm)
+        margin-left: 30%
     .globo
         background:
             position: center
             repeat: no-repeat
-            size: 110%
+            size: 90%
         position: relative
         display: block
         height: 0
@@ -29,20 +31,12 @@ $banner-animation-duration: 21s
         left: 50%
         text-align: center
         height: 100%
-        h3
+        .step-excerpt
             position: absolute
             top: 7%
-            left: -30%
+            left: 0
             -webkit-animation: show-header $banner-animation-duration / 3 ease-in-out infinite
             animation: show-header $banner-animation-duration / 3 ease-in-out infinite
-            +media-query($on-laptop)
-                top: 5%
-                left: -20%
-            +media-query($on-palm)
-                top: 0
-                left: -10%
-            +media-greater($content-width)
-                font-size: 4vw
         &.step-ship
             -webkit-transform: translateX(-50%) rotate(180deg)
             transform: translateX(-50%) rotate(180deg)
@@ -54,38 +48,47 @@ $banner-animation-duration: 21s
             transform: translateX(-50%) rotate(60deg)
     .sprite
         padding: 10px
-        width: 100%
+        width: 120%
         height: 100%
         margin: auto
-        +media-query($on-laptop)
+        +media-query(2500px)
+            width: 100%
+        +media-query(1800px)
+            width: 80%
+        +media-query(1400px)
             width: 70%
-        +media-query($on-palm)
+        +media-query(1300px)
+            width: 60%
+        +media-query(1100px)
             width: 50%
-        +media-greater($on-laptop)
-            img
-                width: 13vw
+        +media-query(900px)
+            width: 45%
+        +media-query(800px)
+            width: 40%
         &.sprite-ship
             -webkit-animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
             animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
             img
                 position: relative
-                top: 24%
+                top: 28%
+                +media-query($on-laptop)
+                    top: 27%
         &.sprite-truck
             -webkit-animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
             animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
             img
                 position: relative
-                top: 24%
-                +media-query($on-laptop)
-                    top: 23.5%
-                +media-query($on-palm)
-                    top: 23%
+                top: 29%
+                +media-query(700px)
+                    top: 27.5%
+                +media-query(600px)
+                    top: 28%
         &.sprite-plane
             -webkit-animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
             animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
             img
                 position: relative
-                top: 10%
+                top: 15%
 
 @-webkit-keyframes banner-rotation
     0%
