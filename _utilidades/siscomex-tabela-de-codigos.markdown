@@ -1,6 +1,7 @@
 ---
 title: Siscomex - Tabela de Códigos
 date: 2017-10-23 00:20:00 -02:00
+icone: siscomex
 ---
 
 CNPJ - fabricante de mercadoria nacionalizada: 99 999 999/9999-99
