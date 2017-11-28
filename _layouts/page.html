@@ -2,17 +2,7 @@
 layout: default
 ---
 
-{% assign page_image_size = page.image | size %}
-{% if page_image_size > 0 %}
-  {% assign page_image = page.image %}
-{% else %}
-  {% assign permalink_image = page.permalink | remove: '/' | append: '-image' %}
-  {% assign page_image = site[permalink_image] %}
-{% endif %}
-
-{% if page_image %}
-  <div class="page-cover parallax-container"><img src="{{ site.baseurl }}{{ page_image }}" class="parallax-content"></div>
-{% endif %}
+{% include page-cover.html %}
 
 <article class="post page-content">
 

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% include page-cover.html %}
+
+<article class="post page-content">
+
+
+    <header class="post-header wrapper">
+
+        <h1 class="post-title">
+            {% if page.icone %}<span class="icon">{% include svg/{{ page.icone }}.svg %}</span>{% endif %}
+            {{ page.title }}
+        </h1>
+
+    </header>
+
+    <div class="post-content">
+
+        {{ content }}
+
+    </div>
+
+</article>

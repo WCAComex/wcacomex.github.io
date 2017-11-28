@@ -11,6 +11,7 @@ layout: page
 
         <article class="wrapper utilidades-item">
             <h2>
+                {% if utilidade.icone %}<span class="icon">{% include svg/{{ utilidade.icone }}.svg %}</span>{% endif %}
                 <a href="{{ site.baseurl }}{{ utilidade.url }}">{{ utilidade.title }}</a>
             </h2>
         </article>

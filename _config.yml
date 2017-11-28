@@ -36,7 +36,8 @@ defaults:
     path: ''
     type: utilidades
   values:
-    layout: page
+    layout: utilidade
+    icone:
 tagline: Inteligência em comércio exterior
 description: Inteligência em comércio exterior
 baseurl: 
