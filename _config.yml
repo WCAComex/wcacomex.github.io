@@ -2,9 +2,6 @@
 title: WCA
 timezone: America/Sao_Paulo
 collections:
-  icones:
-    title: Icones
-    output: false
   posts:
     title: Posts
     output: true
@@ -19,6 +16,9 @@ collections:
     title: Utilidades
     output: true
     permalink: "/utilidades/:path/"
+  icones:
+    title: Ícones
+    output: false
 defaults:
 - scope:
     path: ''
