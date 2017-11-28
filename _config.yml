@@ -18,7 +18,7 @@ collections:
     permalink: "/utilidades/:path/"
   icones:
     title: Ícones
-    output: true
+    output: false
 defaults:
 - scope:
     path: ''
