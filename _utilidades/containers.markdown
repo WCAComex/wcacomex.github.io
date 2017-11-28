@@ -1,6 +1,7 @@
 ---
 title: Containers
 date: 2017-10-23 00:21:00 -02:00
+icone: 
 ---
 
  \* <small>As informações sobre dimensões e pesos são orientativas, podendo haver variação de armador para armador.</small>
