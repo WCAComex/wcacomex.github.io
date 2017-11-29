@@ -12,8 +12,8 @@ if (parallaxContainer) {
     const parallaxContent = parallaxContainer.querySelector('.parallax-content');
     if (parallaxContent) window.addEventListener('scroll', function() {
         if (scrollY > parallaxContainer.offsetTop + parallaxContainer.offsetHeight) return false;
-        parallaxContent.style.transform = `translateY(${scrollY / 3}px)`;
-        siteHeader.style.transform = `translateY(${scrollY / 2}px)`;
+        parallaxContent.style.transform = `translateY(${scrollY * .5}px)`;
+        siteHeader.style.transform = `translateY(${scrollY * .75}px)`;
     });
 };
 
