@@ -1,7 +1,7 @@
 ---
 title: Logística
 date: 2017-10-22 21:32:00 -02:00
-image: "/uploads/logisctic2.jpg"
+image: "/uploads/LOGISTICA_.jpg"
 ordem: 5
 ---
 
