@@ -1,7 +1,7 @@
 ---
 title: Consultoria técnica e comercial
 date: 2017-10-22 21:34:00 -02:00
-image: "/uploads/office-1209640.jpg"
+image: "/uploads/consultoria_B.jpg"
 ordem: 1
 ---
 
