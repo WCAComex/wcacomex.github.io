@@ -9,7 +9,7 @@
                 <img src="{{ site.baseurl }}{{ servico.image }}" alt="{{ servico.title }}">
             </div>
 
-            <h4 class="service-title"><a href="{{ site.baseurl }}{{ servico.url }}">{{ servico.title }}</a></h4>
+            <h4 class="service-title" data-cell="shrink"><a href="{{ site.baseurl }}{{ servico.url }}">{{ servico.title }}</a></h4>
 
             <div class="service-excerpt">
                 {{ servico.excerpt | truncatewords: 30 }}
