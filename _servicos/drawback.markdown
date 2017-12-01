@@ -1,7 +1,7 @@
 ---
 title: Drawback
 date: 2017-10-22 21:45:00 -02:00
-image: "/uploads/drawb.jpg"
+image: "/uploads/drawb-0bf0e7.jpg"
 ordem: 4
 ---
 
