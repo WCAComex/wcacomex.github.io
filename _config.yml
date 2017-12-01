@@ -62,6 +62,6 @@ email: wca@wca.com.br
 google-fonts: <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed"
   rel="stylesheet">
 base-font-family: Georgia, serif
-title-font-family: "'Barlow Semi Condensed', sans-serif"
+title-font-family: Georgia, serif
 servicos-image: "/uploads/SERVICOS_.jpg"
 utilidades-image: "/uploads/UTILIDADES_.jpg"
