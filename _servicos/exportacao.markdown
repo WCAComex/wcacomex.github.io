@@ -1,7 +1,7 @@
 ---
 title: Exportação
 date: 2017-10-22 21:17:00 -02:00
-image: "/uploads/container_B.jpg"
+image: "/uploads/export.jpg"
 ordem: 2
 ---
 
