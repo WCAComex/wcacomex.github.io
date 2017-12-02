@@ -19,7 +19,9 @@ A empresa possui departamentos independentes com recursos e integração funcion
 A WCA é especialista na prestação de serviços de comércio internacional, com ênfase na gestão de processos de exportação, importação, drawback e operações especiais. A empresa tem domínio nas áreas documental, operacional, logística e cambial.
 
 
-![notebook](/uploads/NOTE_.jpg)
+<div class="wrapper large">
+    <img src="/uploads/NOTE_.jpg" alt="notebook">
+</div>
 
 
 ## Como fazemos
