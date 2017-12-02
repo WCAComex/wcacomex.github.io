@@ -4,15 +4,25 @@ layout: default
 
 {% include page-cover.html %}
 
-<article class="post page-content">
+<nav class="wrapper utilidades-nav">
+    <p>
+        <strong>Utilidades</strong>
+    </p>
+    <ul class="seamless">
+        {% for u in site.utilidades %}
+            <li>
+                <a href="{{ site.baseurl }}{{ u.url }}">{{ u.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
 
+<article class="post page-content">
 
     <header class="post-header wrapper">
 
-        <h1 class="post-title">
-            {% if page.icone %}<span class="icon">{% include svg/{{ page.icone }}.svg %}</span>{% endif %}
-            {{ page.title }}
-        </h1>
+        {% if page.icone %}<div class="utilidades-icon">{% include svg/{{ page.icone }}.svg %}</div>{% endif %}
+        <h1 class="post-title">{{ page.title }}</h1>
 
     </header>
 
