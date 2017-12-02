@@ -68,9 +68,10 @@ Termos Internacionais de Comércio discriminados pela International Chamber of C
 Array.prototype.forEach.call(document.querySelectorAll('#incoterms-2 td'), function(cell) {
     var colors = {
         "Vendedor": "#ffca89",
-        "Comprador": "#92e4ff"
+        "Comprador": "#92e4ff",
+        "Ambos": "linear-gradient(to top right, #ffca89 50%, #92e4ff 50%)"
     };
-    cell.style.backgroundColor = colors[cell.textContent];
+    cell.style.background = colors[cell.textContent];
 });
 </script>
 
