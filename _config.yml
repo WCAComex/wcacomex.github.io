@@ -60,7 +60,7 @@ telefones:
   icone: telefone
 - numero: "+551121368483"
   rotulo: "+55 (11) 2136-8483"
-  icone: 
+  icone: fax
 email: wca@wca.com.br
 google-fonts: 
 base-font-family: Frutiger, Verdana, sans-serif
