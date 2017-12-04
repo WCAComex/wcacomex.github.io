@@ -7,7 +7,9 @@ layout: page
 
 <section class="page-content">
 
-    {% for servico in site.servicos %}
+    {% assign servicos = site.servicos | sort: 'ordem' %}
+
+    {% for servico in servicos %}
 
         <article class="wrapper servicos-item">
             <h2>{{ servico.title }}</h2>
