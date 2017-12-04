@@ -5,21 +5,23 @@ nav-title: Utilidades
 layout: page
 ---
 
-<section class="page-content utilidades">
+<section class="page-content utilidades" data-grid="around wrap">
 
     {% for utilidade in site.utilidades %}
 
-        <article class="wrapper utilidades-item">
-            <h2>
-                <a href="{{ site.baseurl }}{{ utilidade.url }}" data-grid="row center spacing">
-                    {% if utilidade.icone %}
-                        <span data-cell="1of4" class="icon utilidades-icon">
-                            {% include svg/{{ utilidade.icone }}.svg %}
-                        </span>
-                    {% endif %}
-                    <span class="utilidades-title" data-cell="3of4">{{ utilidade.title }}</span>
-                </a>
-            </h2>
+        <article class="utilidades-item" data-grid="center" data-cell="shrink" 
+        {% if utilidade.cor %}
+            style="background-color: {{ utilidade.cor }};"
+        {% endif %}
+        >
+            <a href="{{ site.baseurl }}{{ utilidade.url }}" data-grid="column center">
+                {% if utilidade.icone %}
+                    <p data-cell="1of4" class="icon utilidades-icon">
+                        {% include svg/{{ utilidade.icone }}.svg %}
+                    </p>
+                {% endif %}
+                <p class="utilidades-title" data-cell="3of4">{{ utilidade.title }}</p>
+            </a>
         </article>
 
     {% endfor %}

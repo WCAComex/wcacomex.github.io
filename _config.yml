@@ -39,6 +39,7 @@ defaults:
   values:
     layout: utilidade
     icone: 
+    cor: 
 tagline: Inteligência em comércio exterior
 description: Inteligência em comércio exterior
 baseurl: 
