@@ -65,13 +65,20 @@ Termos Internacionais de Comércio discriminados pela International Chamber of C
 </tr>
 </tbody> </table>
 <script>
-Array.prototype.forEach.call(document.querySelectorAll('#incoterms-2 td'), function(cell) {
+(function(cells) {
     var colors = {
-        "Vendedor": "#ffca89",
-        "Comprador": "#92e4ff"
+        "Vendedor": "#9d2235",
+        "Comprador": "#004180",
+        "Ambos": "linear-gradient(to top right, #9d2235 50%, #004180 50%)"
     };
-    cell.style.backgroundColor = colors[cell.textContent];
-});
+    Array.prototype.forEach.call(cells, function(cell) {
+        var bgColor = colors[cell.textContent];
+        if (bgColor) {
+            cell.style.background = bgColor;
+            cell.style.color = '#fff';
+        }
+    });
+})(document.querySelectorAll('#incoterms-2 td'));
 </script>
 
 ---
