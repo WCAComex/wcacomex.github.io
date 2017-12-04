@@ -8,9 +8,11 @@
       </p>
       <h2 class="footer-heading">{{ site.long-title }}</h2>
       <p>{{ site.endereco }} - {{ site.localidade }}</p>
-      {% for tel in site.telefones %}
+      {% for tel in site.telefones %}{% assign icon_size = tel.icone | size %}
         <p>
-          <span class="icon">{% include svg/tel-old.svg %}</span>
+          {% if icon_size > 0 %}
+            <span class="icon">{% include svg/{{ tel.icone }}.svg %}</span>
+          {% endif %}
           <a href="tel:{{ tel.numero }}" class="tel"> {{ tel.rotulo }}</a>
         </p>
       {% endfor %}
