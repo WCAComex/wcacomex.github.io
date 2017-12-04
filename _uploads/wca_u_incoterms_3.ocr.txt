@@ -1,5 +1,0 @@
-﻿Condições de venda não disciplinadas pela publicação n° 715. de 2010. da ICC:
-Código	Descrição	Modalidade de transporte
-C+F	Cost Plus Fretghl Custo Mais Frete	Qualquer modalidade de transporte
-C+/	Cost Plus Insurance Custo Mais Seguro	Qualquer modalidade de transporte
-OCV	Outra Condição de Venda	Utilizável em operação que não se enquadre em nenhuma das situações descntas anteriormente
