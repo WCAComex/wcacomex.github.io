@@ -67,8 +67,8 @@ Termos Internacionais de Comércio discriminados pela International Chamber of C
 <script>
 (function(cells) {
     var colors = {
-        "Vendedor": "#9d2235",
-        "Comprador": "#004180",
+        "Vendedor": "#CC0033",
+        "Comprador": "#0099FF",
         "Ambos": "linear-gradient(to top right, #9d2235 50%, #004180 50%)"
     };
     Array.prototype.forEach.call(cells, function(cell) {
