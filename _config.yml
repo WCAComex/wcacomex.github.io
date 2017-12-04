@@ -60,7 +60,7 @@ telefones:
   rotulo: "+55 (11) 2136-8483"
 email: wca@wca.com.br
 google-fonts: 
-base-font-family: Georgia, serif
+base-font-family: Frutiger, Verdana, sans-serif
 title-font-family: Frutiger, Verdana, sans-serif
 servicos-image: "/uploads/SERVICOS_.jpg"
 utilidades-image: "/uploads/UTILIDADES_.jpg"
