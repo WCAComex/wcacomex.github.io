@@ -2,7 +2,7 @@
 title: Países e seus Portos
 date: 2017-10-23 00:20:00 -02:00
 icone: portos
-cor: "#3ea261"
+cor: "#3CB371"
 ---
 
 - ÁFRICA DO SUL: Cape Town, Durban, East London, Port Elizabeth;
