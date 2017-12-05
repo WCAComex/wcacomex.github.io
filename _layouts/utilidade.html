@@ -6,9 +6,11 @@ layout: default
 
 <article class="post page-content">
 
-    <header class="post-header wrapper">
+    <header class="post-header wrapper" data-grid="center spacing">
 
-        {% if page.icone %}<div class="utilidades-icon">{% include svg/{{ page.icone }}.svg %}</div>{% endif %}
+        {% if page.icone %}<div class="icon utilidades-icon" data-cell="shrink" data-grid="center"
+            {% if page.cor %}style="background-color: {{ page.cor }}"{% endif %}
+        >{% include svg/{{ page.icone }}.svg %}</div>{% endif %}
         <h1 class="post-title">{{ page.title }}</h1>
 
     </header>
