@@ -28,7 +28,6 @@ if (mapContainer) {
             allowfullscreen: true,
             style: {
                 display: 'block',
-                height: '100vh',
                 border: '0',
                 backgroundColor: '#888'
             }
