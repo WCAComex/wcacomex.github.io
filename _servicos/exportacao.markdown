@@ -13,16 +13,25 @@ A sua empresa realiza a exportação visualizando integralmente todas as etapas 
 
 ## Serviços prestados:  
 
-- Tratamento administrativo no âmbito do Decex;
-- Emissão e obtenção de todos os documentos de exportação, estando incluídos os emitidos em ambiente Siscomex e os documentos de embarque (fatura comercial, packing list, certificado de origem, certificado de seguro, declarações diversas, conhecimento de embarque, letra de câmbio (saque), carta remessa, aviso de embarque, etc.);
-- Legalização e certificação de documentos 
+Tratamento administrativo no âmbito do Decex;
+
+Emissão e obtenção de todos os documentos de exportação, estando incluídos os emitidos em ambiente Siscomex e os documentos de embarque (fatura comercial, packing list, certificado de origem, certificado de seguro, declarações diversas, conhecimento de embarque, letra de câmbio (saque), carta remessa, aviso de embarque, etc.);
+
+Legalização e certificação de documentos 
 junto a entidades de classe e representações diplomáticas;
-- Negociação de tarifas de frete nacional, internacional e reserva de espaço;
-- Negociação e contratação de seguro 
+
+Negociação de tarifas de frete nacional, internacional e reserva de espaço;
+
+Negociação e contratação de seguro 
 de transporte internacional de mercadorias;
-- Coordenação de transporte interno (fábrica/local alfandegado);
-- Análise e negociação de cartas de crédito;
-- Contratação de câmbio;
-- Acompanhamento do processo de desembaraço aduaneiro 
+
+Coordenação de transporte interno (fábrica/local alfandegado);
+
+Análise e negociação de cartas de crédito;
+
+Contratação de câmbio;
+
+Acompanhamento do processo de desembaraço aduaneiro 
 junto ao despachante;
-- Acompanhamento da operação até sua liquidação.
+
+Acompanhamento da operação até sua liquidação.
