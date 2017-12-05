@@ -2,7 +2,7 @@
 title: Incoterms 2010
 date: 2017-10-23 00:17:00 -02:00
 icone: shipping
-cor: "#0ca3c5"
+cor: "#1E90FF"
 ---
 
 INCOTERMS® 2010
