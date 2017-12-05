@@ -5,18 +5,18 @@ nav-title: Utilidades
 layout: page
 ---
 
-<section class="page-content utilidades" data-grid="around wrap">
+<section class="page-content utilidades" data-grid="around row wrap">
 
     {% for utilidade in site.utilidades %}
 
-        <article class="utilidades-item" data-grid="center" data-cell="shrink" 
+        <article class="utilidades-item" data-cell="shrink" 
         {% if utilidade.cor %}
             style="background-color: {{ utilidade.cor }};"
         {% endif %}
         >
             <a href="{{ site.baseurl }}{{ utilidade.url }}" data-grid="column center">
                 {% if utilidade.icone %}
-                    <p data-cell="1of4" class="icon utilidades-icon">
+                    <p data-cell="1of4" class="icon utilidades-icon" data-grid="center">
                         {% include svg/{{ utilidade.icone }}.svg %}
                     </p>
                 {% endif %}
