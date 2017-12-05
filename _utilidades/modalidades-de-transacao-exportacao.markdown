@@ -2,7 +2,7 @@
 title: Modalidades de Transação - Exportação
 date: 2017-10-23 00:20:00 -02:00
 icone: cash
-cor: "#ff9900"
+cor: "#FFA500"
 ---
 
 | Crédito | 001 |
