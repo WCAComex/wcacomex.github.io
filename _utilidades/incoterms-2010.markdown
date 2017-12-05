@@ -24,7 +24,7 @@ Termos Internacionais de Comércio discriminados pela International Chamber of C
 
 ---
 
-<table id="incoterms-2" class="scrollable">
+<table id="incoterms-2" class="scrollable" style="font-size: .6em;">
 <thead>
 <tr>
     <th>Código</th> <th>Bens embalados para venda</th> <th>Bens nas instalações do vendedor</th> <th>Transporte interior na origem</th> <th>Desembaraço para exportação</th> <th>Gastos de manipulação na origem</th> <th>Transporte internacional</th> <th>Seguro dos bens</th> <th>Gastos de manipulação no destino</th> <th>Desembaraço para importação</th> <th>Transporte interior no destino</th> <th>Entregados bens ao comprador</th>
