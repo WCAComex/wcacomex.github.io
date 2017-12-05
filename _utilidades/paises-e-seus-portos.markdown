@@ -90,7 +90,7 @@ cor: "#3CB371"
 | MALTA | Malta. |
 | MARROCOS | Casablanca. |
 | MARTINICA | Fort de France. |
-| MAURITANIA | Nouadhibou; Nouakchott. |
+| MAURITANIA | Nouadhibou, Nouakchott. |
 | MÉXICO | Altamira, Tampico, Veracruz, Manzanillo. |
 | MOÇAMBIQUE | Beira, Maputo. |
 | NOVA CALEDONIA | Noumea. |
