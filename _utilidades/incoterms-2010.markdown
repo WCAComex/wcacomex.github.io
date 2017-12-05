@@ -86,7 +86,7 @@ Termos Internacionais de Comércio discriminados pela International Chamber of C
 
 Condições de venda não disciplinadas pela publicação n° 715. de 2010. da ICC:
 
-| Código | Descrição | Modalidade de transporte |
+| CÓDIGO | DESCRIÇÃO | MODALIDADE DE TRANSPORTE |
 | --- | --- | --- |
 | C+F | Cost Plus Freight Custo Mais Frete | Qualquer modalidade de transporte |
 | C+I | Cost Plus Insurance Custo Mais Seguro | Qualquer modalidade de transporte |
