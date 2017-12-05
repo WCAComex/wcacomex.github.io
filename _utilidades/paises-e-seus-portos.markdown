@@ -5,7 +5,7 @@ icone: portos
 cor: "#3CB371"
 ---
 
-- ÁFRICA DO SUL: Cape Town, Durban, East London, Port Elizabeth;
+| ÁFRICA DO SUL | Cape Town, Durban, East London, Port Elizabeth |
 - ALEMANHA: Bremen, Hamburgo, Wismar, Bremerhaven;
 - ANGOLA: Cabinda, Lobito, Luanda, Namibe;
 - ANTIGUA: St. John's;
