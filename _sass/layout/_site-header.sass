@@ -66,10 +66,12 @@
             perspective: 1000px
 
             .page-link
+                -webkit-animation: come-up .3s ease-in-out forwards
                 animation: come-up .3s ease-in-out forwards
 
                 @for $i from 1 through 10
                     &:nth-of-type(#{$i})
+                        -webkit-animation-duration: .3s * $i
                         animation-duration: .3s * $i
 
         .page-link
@@ -79,6 +81,12 @@
             text-align: center
             background-color: rgba(#630007, .8)
             color: #fff
+
+@-webkit-keyframes come-up
+    0%
+        -webkit-transform: translateY(50%) rotateY(90deg)
+    100%
+        -webkit-transform: translateY(0) rotateY(0)
 
 @keyframes come-up
     0%
