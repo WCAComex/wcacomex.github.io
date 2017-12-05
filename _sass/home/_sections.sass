@@ -53,13 +53,6 @@
         +media-query($on-palm)
             padding: $spacing-unit / 4 $spacing-unit / 2
         .service
-            text-align: left
-            margin-top: $spacing-unit / 2
-            margin-bottom: $spacing-unit / 2
-            border: 1px solid $grey-color-light
-            border-radius: 7px
-            overflow: hidden
-            box-shadow: 0 0 30px -15px rgba(#000, .5)
             +media-greater($on-palm)
                 max-width: 25em
                 margin: $spacing-unit / 2
@@ -69,14 +62,8 @@
                 height: 0
                 padding-bottom: 40%
                 overflow: hidden
-            &-title, &-excerpt
-                padding: 0 $spacing-unit
             &-excerpt
                 color: #939393
-            footer
-                a
-                    float: right
-                    margin-top: -30px
             +media-greater($on-palm)
                 p
                     margin-top: 0
@@ -99,10 +86,9 @@
                         min-width: 100%
                         width: auto
                         height: 100%
-                    text-align: left
                 &-title, &-excerpt
-                    text-align: left
                     padding-left: 120px + $spacing-unit / 2
+                    padding-right: $spacing-unit
                 &-title
                     margin-bottom: 0
                     font-size: 1.2em
@@ -120,7 +106,7 @@
                         font:
                             weight: bold
                             size: 1.7em
-                            padding: 5px
+                        padding: 5px
         svg
             max-width: 80%
             +media-query($on-palm)
