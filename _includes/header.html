@@ -13,10 +13,12 @@
         </svg>
       </a>
 
+      {% assign crumbs = page.url | split: '/' %}
+
       <div class="trigger">
         {% for my_page in site.pages %}
-          {% if my_page.nav-title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.nav-title }}</a>
+          {% if my_page.nav-title %}{% assign my_page_crumbs = my_page.url | split: '/' %}
+          <a class="page-link {% if crumbs[1] == my_page_crumbs[1] %}selected{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.nav-title }}</a>
           {% endif %}
         {% endfor %}
         <a href="#contato" class="page-link">Contato</a>

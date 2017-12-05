@@ -7,6 +7,8 @@
     background-color: $brand-color-dark
     a
         color: #fff
+        &:focus
+            outline-color: rgba(#fff, .5)
 
 .site-title
     float: left
@@ -21,20 +23,25 @@
         display: none
 
     .page-link 
+        display: inline-block
+        padding: 15px
         line-height: $base-line-height
-        margin-left: 20px
+
+        &:hover, &:focus, &:active
+            text-decoration: none
+            background-color: rgba($brand-color, .3)
+
+        &.selected
+            background-color: $brand-color
+            color: #fff
 
     @include media-query($on-palm) 
         position: absolute
         top: 9px
         z-index: 99
         right: $spacing-unit / 2
-        background-color: $background-color
         border-radius: 5px
         text-align: right
-        color: $text-color
-        a
-            color: $text-color
         .menu-icon
             display: block
             float: right
@@ -47,7 +54,7 @@
                 width: 18px
                 height: 15px
                 path
-                    fill: $grey-color-dark
+                    fill: currentcolor
 
         .trigger 
             clear: both
@@ -56,8 +63,25 @@
         &:hover .trigger 
             display: block
             padding-bottom: 5px
+            perspective: 1000px
+
+            .page-link
+                animation: come-up .3s ease-in-out forwards
+
+                @for $i from 1 through 10
+                    &:nth-of-type(#{$i})
+                        animation-duration: .3s * $i
 
         .page-link
             display: block
-            padding: 5px 25px
-            margin: 10px 0
+            padding: 10px 25px
+            margin: 0
+            text-align: center
+            background-color: rgba(#630007, .8)
+            color: #fff
+
+@keyframes come-up
+    0%
+        transform: translateY(50%) rotateY(90deg)
+    100%
+        transform: translateY(0) rotateY(0)
