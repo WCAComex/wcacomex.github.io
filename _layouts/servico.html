@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% include page-cover.html %}
+
+<article class="post page-content">
+
+  <header class="post-header wrapper">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
+
+<div class="page-content">
+    
+    <nav class="wrapper servicos-nav">
+        <p>
+            <strong>Serviços</strong>
+        </p>
+        <ul class="seamless">
+            {% for s in site.servicos %}
+                <li>
+                    <a href="{{ site.baseurl }}{{ s.url }}">{{ s.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+    
+</div>
