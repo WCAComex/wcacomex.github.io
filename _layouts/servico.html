@@ -23,11 +23,15 @@ layout: default
             <strong>Serviços</strong>
         </p>
         <ul class="seamless">
-            {% for s in site.servicos %}
+
+            {% assign servicos = site.servicos | sort: 'ordem' %}
+
+            {% for s in servicos %}
                 <li>
                     <a href="{{ site.baseurl }}{{ s.url }}">{{ s.title }}</a>
                 </li>
             {% endfor %}
+
         </ul>
     </nav>
     
