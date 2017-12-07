@@ -8,7 +8,7 @@ image: "/uploads/FACHADA_2.jpg"
 layout: page
 ---
 
-Somos uma empresa consolidada no mercado com sua expertise em otimizar processos e executá-los de forma simples e eficaz. Todos os procedimentos são pensados para atender clientes com diferentes demandas, perfis e necessidades.
+A WCA é uma empresa consolidada no mercado com sua expertise em otimizar processos e executá-los de forma simples e eficaz. Todos os procedimentos são pensados para atender clientes com diferentes demandas, perfis e necessidades.
 
 Com equipe altamente capacitada, trabalha de forma integrada aos departamentos de exportação e importação dos clientes e desenvolve soluções através de estudos personalizados.
 
