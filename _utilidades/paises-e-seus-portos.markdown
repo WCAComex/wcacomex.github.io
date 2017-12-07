@@ -33,7 +33,7 @@ cor: "#0F9D58"
 | CHIPRE | Lamaca, Limassol. |
 | COLÔMBIA | Barranquilla, Buenaventura, Cartagena, Santa Marta. |
 | CONGO | Point Noire. |
-| CORÊIA DO SUL | Busan. |
+| CORÉIA DO SUL | Busan. |
 | COSTA DO MARFIM | Abidjan. |
 | COSTA RICA | Puerto Limon, Puerto Caldeira. |
 | CROÁCIA | Rijeka. |
