@@ -64,7 +64,7 @@ telefones:
   icone: fax
 email: wca@wca.com.br
 google-fonts: 
-base-font-family: Frutiger, Verdana, sans-serif
-title-font-family: Frutiger, Verdana, sans-serif
+base-font-family: Frutiger, Calibri, sans-serif
+title-font-family: Frutiger, Calibri, sans-serif
 servicos-image: "/uploads/SERVICOS_2_.jpg"
 utilidades-image: "/uploads/UTILIDADES_.jpg"
