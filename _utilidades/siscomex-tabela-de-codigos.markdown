@@ -1,5 +1,5 @@
 ---
-title: Siscomex - Tabela de Códigos
+title: SISCOMEX - TABELA DE CÓDIGOS
 date: 2017-10-23 00:20:00 -02:00
 icone: siscomex
 cor: "#9932CC"
