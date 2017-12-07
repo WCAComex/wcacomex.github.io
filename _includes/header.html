@@ -21,6 +21,7 @@
           <a class="page-link {% if crumbs[1] == my_page_crumbs[1] %}selected{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.nav-title }}</a>
           {% endif %}
         {% endfor %}
+        <a href="{{ site.baseurl }}/#mapa" class="page-link">LOCALIZAÇÃO</a>
         <a href="#contato" class="page-link">CONTATO</a>
       </div>
     </nav>
