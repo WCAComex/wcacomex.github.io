@@ -27,6 +27,7 @@
 
     <div data-cell="shrink">
       <ul class="seamless">
+        <li><a href="{{ site.baseurl }}/">Home</a></li>
         {% for my_page in site.pages %}
           {% if my_page.nav-title %}
             <li>
@@ -36,7 +37,8 @@
             </li>
           {% endif %}
         {% endfor %}
-        <li><a href="#contato">CONTATO</a></li>
+        <li><a href="{{ site.baseurl }}/#mapa">Localização</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </div>
 
