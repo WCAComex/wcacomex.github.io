@@ -32,7 +32,7 @@ layout: default
         <ul class="seamless">
             {% for u in site.utilidades %}
                 <li>
-                    <a href="{{ site.baseurl }}{{ u.url }}">{{ u.title }}</a>
+                    <a href="{{ site.baseurl }}{{ u.url }}">{{ u.title | upcase }}</a>
                 </li>
             {% endfor %}
         </ul>
