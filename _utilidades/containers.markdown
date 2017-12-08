@@ -7,7 +7,7 @@ cor: "#f12736"
 
  \* <small>As informações sobre dimensões e pesos são orientativas, podendo haver variação de armador para armador.</small>
 
-<table style="font-size:.7em;max-width:1300px;">
+<table>
     <thead>
         <tr>
             <th>CONTAINER</th>

@@ -25,46 +25,180 @@ Termos Internacionais de Comércio discriminados pela International Chamber of C
 ---
 
 <table id="incoterms-2" class="scrollable" style="font-size:.6em;text-align:center;text-transform:uppercase;">
-<thead>
-<tr>
-    <th>Código</th> <th>Bens embalados para venda</th> <th>Bens nas instalações do vendedor</th> <th>Transporte interior na origem</th> <th>Desembaraço para exportação</th> <th>Gastos de manipulação na origem</th> <th>Transporte internacional</th> <th>Seguro dos bens</th> <th>Gastos de manipulação no destino</th> <th>Desembaraço para importação</th> <th>Transporte interior no destino</th> <th>Entregados bens ao comprador</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>EXW</td> <td>Vendedor</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td>
-</tr>
-<tr>
-    <td>FCA</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td>
-</tr>
-<tr>
-    <td>FAS</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td>
-</tr>
-<tr>
-    <td>FOB</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Ambos</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td>
-</tr>
-<tr>
-    <td>CFR</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td>
-</tr>
-<tr>
-    <td>CIF</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td>
-</tr>
-<tr>
-    <td>CPT</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td>
-</tr>
-<tr>
-    <td>CIP</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td>
-</tr>
-<tr>
-    <td>DAT</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Comprador</td> <td>Comprador</td> <td>Comprador</td>
-</tr>
-<tr>
-    <td>DAP</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Comprador</td> <td>Vendedor</td> <td>Vendedor</td>
-</tr>
-<tr>
-    <td>DDP</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td> <td>Vendedor</td>
-</tr>
-</tbody> </table>
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Bens embalados para venda</th>
+            <th>Bens nas instalações do vendedor</th>
+            <th>Transporte interior na origem</th>
+            <th>Desembaraço para exportação</th>
+            <th>Gastos de manipulação na origem</th>
+            <th>Transporte internacional</th>
+            <th>Seguro dos bens</th>
+            <th>Gastos de manipulação no destino</th>
+            <th>Desembaraço para importação</th>
+            <th>Transporte interior no destino</th>
+            <th>Entregados bens ao comprador</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>EXW</td>
+            <td>Vendedor</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+        </tr>
+        <tr>
+            <td>FCA</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+        </tr>
+        <tr>
+            <td>FAS</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+        </tr>
+        <tr>
+            <td>FOB</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Ambos</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+        </tr>
+        <tr>
+            <td>CFR</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+        </tr>
+        <tr>
+            <td>CIF</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+        </tr>
+        <tr>
+            <td>CPT</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+        </tr>
+        <tr>
+            <td>CIP</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+        </tr>
+        <tr>
+            <td>DAT</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+            <td>Comprador</td>
+        </tr>
+        <tr>
+            <td>DAP</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Comprador</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+        </tr>
+        <tr>
+            <td>DDP</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+            <td>Vendedor</td>
+        </tr>
+    </tbody>
+</table>
+
 <script>
 (function(cells) {
     var colors = {
