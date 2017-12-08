@@ -1,5 +1,5 @@
 ---
-title: MODALIDADES DE TRANSAÇÃO - EXPORTAÇÃO
+title: Modalidades de transação - Exportação
 date: 2017-10-23 00:20:00 -02:00
 icone: cash
 cor: "#FFA500"
