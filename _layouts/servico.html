@@ -18,7 +18,7 @@ layout: default
 
 <div class="page-content">
     
-    <nav class="wrapper servicos-nav">
+    <nav class="wrapper page-nav">
         <p>
             <strong>Serviços</strong>
         </p>
@@ -28,7 +28,7 @@ layout: default
 
             {% for s in servicos %}
                 <li>
-                    <a href="{{ site.baseurl }}{{ s.url }}">{{ s.title | upcase }}</a>
+                    <a href="{{ site.baseurl }}{{ s.url }}">{{ s.title }}</a>
                 </li>
             {% endfor %}
 

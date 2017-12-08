@@ -25,14 +25,14 @@ layout: default
 
 <div class="page-content">
     
-    <nav class="wrapper utilidades-nav">
+    <nav class="wrapper page-nav">
         <p>
             <strong>Utilidades</strong>
         </p>
         <ul class="seamless">
             {% for u in site.utilidades %}
                 <li>
-                    <a href="{{ site.baseurl }}{{ u.url }}">{{ u.title | upcase }}</a>
+                    <a href="{{ site.baseurl }}{{ u.url }}">{{ u.title }}</a>
                 </li>
             {% endfor %}
         </ul>
