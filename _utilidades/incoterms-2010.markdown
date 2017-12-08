@@ -14,7 +14,7 @@ Termos Internacionais de Comércio discriminados pela International Chamber of C
             <th>CÓDIGO</th>
             <th>DESCRIÇÃO</th>
             <th>MODALIDADE DE TRANSPORTE</th>
-            <th style="width:34em;">PRINCIPAIS OBRIGAÇÕES A CARGO DO VENDEDOR</th>
+            <th style="width:40%;">PRINCIPAIS OBRIGAÇÕES A CARGO DO VENDEDOR</th>
         </tr>
     </thead>
     <tbody>
@@ -296,8 +296,29 @@ Termos Internacionais de Comércio discriminados pela International Chamber of C
 
 Condições de venda não disciplinadas pela publicação n° 715. de 2010. da ICC:
 
-| CÓDIGO | DESCRIÇÃO | MODALIDADE DE TRANSPORTE |
-| --- | --- | --- |
-| C+F | Cost Plus Freight Custo Mais Frete | Qualquer modalidade de transporte |
-| C+I | Cost Plus Insurance Custo Mais Seguro | Qualquer modalidade de transporte |
-| OCV | Outra Condição de Venda | Utilizável em operação que não se enquadre em nenhuma das situações descritas anteriormente. |
+<table data-text="sm">
+    <thead>
+        <tr>
+            <th>CÓDIGO</th>
+            <th>DESCRIÇÃO</th>
+            <th>MODALIDADE DE TRANSPORTE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>C+F</td>
+            <td>Cost Plus Freight Custo Mais Frete</td>
+            <td>Qualquer modalidade de transporte</td>
+        </tr>
+        <tr>
+            <td>C+I</td>
+            <td>Cost Plus Insurance Custo Mais Seguro</td>
+            <td>Qualquer modalidade de transporte</td>
+        </tr>
+        <tr>
+            <td>OCV</td>
+            <td>Outra Condição de Venda</td>
+            <td>Utilizável em operação que não se enquadre em nenhuma das situações descritas anteriormente.</td>
+        </tr>
+    </tbody>
+</table>
