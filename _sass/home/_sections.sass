@@ -118,27 +118,22 @@
         padding: 0
         border-top: 1px solid $grey-color-light
         line-height: 1.6
-        background: #4892c7
+        +media-greater($large-content-width)
+            font-size: 1.5vw
         .about-content
-            position: relative
+            position: absolute
+            top: 5%
+            left: 5%
+            right: 5%
             z-index: 99
             padding-left: $spacing-unit / 2
             padding-right: $spacing-unit / 2
-            +media-greater($on-palm)
-                position: absolute
-                top: 5%
-                left: 5%
-                right: 5%
-                font-size: 2vw
         .about-title
-            font-size: 1.6em
+            font-size: 1.4em
+            text-transform: uppercase
         p
             letter-spacing: 1px
-        +media-query($on-palm)
-            p
-                line-height: 1.2
-            .banner
-                margin-top: -20%
+            max-width: 26em
 
     &mapa
         padding: 0

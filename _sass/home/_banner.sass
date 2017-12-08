@@ -4,9 +4,7 @@ $banner-animation-duration: 21s
     position: relative
     overflow: hidden
     padding-bottom: 0
-    background-color: #4892c7
-    +media-greater($on-palm)
-        margin-left: 30%
+    background-color: #218de8
     .globo
         background:
             position: center
@@ -16,7 +14,7 @@ $banner-animation-duration: 21s
         display: block
         height: 0
         padding-bottom: 140%
-        margin: 0 -20% -90% -20%
+        margin: 200px -30% -90% -30%
         border-radius: 100%
         overflow: hidden
         backface-visibility: hidden
@@ -24,10 +22,13 @@ $banner-animation-duration: 21s
         transform: rotate(-60deg)
         -webkit-animation: banner-rotation $banner-animation-duration ease infinite
         animation: banner-rotation $banner-animation-duration ease infinite
-        +media-query($on-laptop)
+        +media-query($on-palm)
             background-image: url('#{$baseurl}/img/home/globo-sm.jpg')
-        +media-greater($on-laptop)
+        +media-greater($on-palm)
             background-image: url('#{$baseurl}/img/home/globo.jpg')
+            margin-top: 0%
+        +media-greater($on-laptop)
+            margin-top: -15%
         +media-greater($on-palm)
             left: 20%
     .step
@@ -63,6 +64,8 @@ $banner-animation-duration: 21s
             width: 45%
         +media-query(800px)
             width: 40%
+        +media-query(600px)
+            width: 35%
         &.sprite-ship
             -webkit-animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
             animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
@@ -71,6 +74,8 @@ $banner-animation-duration: 21s
                 top: 27%
                 +media-query($on-laptop)
                     top: 26%
+                +media-query($on-palm)
+                    top: 25%
         &.sprite-truck
             -webkit-animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
             animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
@@ -80,7 +85,7 @@ $banner-animation-duration: 21s
                 +media-query(700px)
                     top: 27.5%
                 +media-query(600px)
-                    top: 28%
+                    top: 26.5%
         &.sprite-plane
             -webkit-animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
             animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
