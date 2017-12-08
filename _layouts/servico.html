@@ -27,7 +27,7 @@ layout: default
             {% assign servicos = site.servicos | sort: 'ordem' %}
 
             {% for s in servicos %}
-                <li>
+                <li class="page-nav-item">
                     <a href="{{ site.baseurl }}{{ s.url }}">{{ s.title }}</a>
                 </li>
             {% endfor %}
