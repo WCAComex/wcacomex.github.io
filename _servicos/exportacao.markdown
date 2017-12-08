@@ -11,6 +11,8 @@ A WCA coordena a operação interagindo com os demais prestadores de serviços e
 
 A sua empresa realiza a exportação visualizando integralmente todas as etapas do processo. 
 
+---
+
 ## Serviços prestados:  
 
 Tratamento administrativo no âmbito do Decex;
