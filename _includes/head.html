@@ -14,7 +14,7 @@
     {% assign page_image = site[permalink_image] %}
   {% endif %}
   {% if page_image %}
-    <meta name="og:image" content="{{ site.baseurl }}{{ page_image }}">
+    <meta property="og:image" content="{{ site.baseurl }}{{ page_image }}">
   {% endif %}
 
   {% if site['google-fonts'] %}{{ site['google-fonts'] }}{% endif %}
