@@ -82,11 +82,16 @@
                     padding: 0
                     background-color: rgba(blue, .1)
                     img
+                        position: absolute
+                        top: 0
+                        left: 50%
+                        -webkit-transform: translateX(-50%)
+                        transform: translateX(-50%)
+                        box-shadow: 0 0 1px rgba(255,255,255,0)
                         max-width: initial
                         min-width: 100%
                         width: auto
                         height: 100%
-                        float: right
                 &-title, &-excerpt
                     padding-left: 120px + $spacing-unit / 2
                     padding-right: $spacing-unit
