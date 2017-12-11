@@ -34,9 +34,10 @@ $banner-animation-duration: 21s
             left: 20%
     .step
         position: absolute
+        top: 0
         left: 50%
-        text-align: center
         height: 100%
+        text-align: center
         &.step-ship
             -webkit-transform: translateX(-50%) rotate(180deg)
             transform: translateX(-50%) rotate(180deg)
@@ -47,52 +48,46 @@ $banner-animation-duration: 21s
             -webkit-transform: translateX(-50%) rotate(60deg)
             transform: translateX(-50%) rotate(60deg)
     .sprite
-        padding: 10px
-        width: 120%
+        width: 100%
         height: 100%
         margin: auto
-        +media-query(2500px)
-            width: 100%
         +media-query(1800px)
+            width: 90%
+        +media-query(1600px)
             width: 80%
         +media-query(1400px)
             width: 70%
-        +media-query(1300px)
+        +media-query(1200px)
             width: 60%
-        +media-query(1100px)
+        +media-query(1000px)
             width: 50%
-        +media-query(900px)
-            width: 45%
         +media-query(800px)
             width: 40%
         +media-query(600px)
-            width: 35%
+            width: 30%
+        img
+            transform: translateY(-100%)
         &.sprite-ship
             -webkit-animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
             animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
             img
                 position: relative
-                top: 27%
-                +media-query($on-laptop)
-                    top: 26%
-                +media-query($on-palm)
-                    top: 25%
+                top: 30%
+                width: 100%
         &.sprite-truck
             -webkit-animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
             animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
             img
                 position: relative
-                top: 27%
-                +media-query(700px)
-                    top: 27.5%
-                +media-query(600px)
-                    top: 26.5%
+                top: 30.5%
+                width: 90%
         &.sprite-plane
             -webkit-animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
             animation: rotate-sprite $banner-animation-duration / 3 ease-in-out infinite
             img
                 position: relative
                 top: 15%
+                width: 65%
 
 @-webkit-keyframes banner-rotation
     0%
