@@ -10,17 +10,17 @@ layout: page
     {% for utilidade in site.utilidades %}
 
         <article class="utilidades-item" data-cell="shrink">
-            <a href="{{ site.baseurl }}{{ utilidade.url }}" data-grid="column center">
+            <a href="{{ site.baseurl }}{{ utilidade.url }}" data-text="center">
                 {% if utilidade.icone %}
-                    <p data-cell="1of4" class="icon utilidades-icon" data-grid="center"
+                    <span class="icon utilidades-icon"
                     {% if utilidade.cor %}
                         style="background-color: {{ utilidade.cor }};"
                     {% endif %}
                     >
                         {% include svg/{{ utilidade.icone }}.svg %}
-                    </p>
+                    </span>
                 {% endif %}
-                <p class="utilidades-title" data-cell="3of4">{{ utilidade.title }}</p>
+                <span class="utilidades-title">{{ utilidade.title }}</span>
             </a>
         </article>
 
