@@ -36,6 +36,7 @@ defaults:
     type: servicos
   values:
     layout: servico
+    excerpt: 
     image: 
     ordem: 
 - scope:
