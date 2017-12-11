@@ -28,6 +28,11 @@ defaults:
     image: 
 - scope:
     path: ''
+    type: pages
+  values:
+    excerpt: 
+- scope:
+    path: ''
     type: servicos
   values:
     layout: servico
