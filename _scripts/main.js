@@ -10,11 +10,14 @@ document.body.addEventListener('touchstart', () => {});
 if (parallaxContainer) {
     const siteHeader = document.querySelector('.site-header');
     const parallaxContent = parallaxContainer.querySelector('.parallax-content');
-    if (parallaxContent) window.addEventListener('scroll', function() {
-        if (scrollY > parallaxContainer.offsetTop + parallaxContainer.offsetHeight) return false;
+    const maxScrollOffset = parallaxContainer.offsetTop + parallaxContainer.offsetHeight;
+    if (parallaxContent) window.addEventListener('touchmove', handleScroll);
+    if (parallaxContent) window.addEventListener('scroll', handleScroll);
+    function handleScroll() {
+        if (scrollY > maxScrollOffset) return false;
         parallaxContent.style.transform = `translateY(${scrollY * .5}px)`;
         siteHeader.style.transform = `translateY(${scrollY * .75}px)`;
-    });
+    };
 };
 
 if (mapContainer) {
