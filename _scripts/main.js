@@ -11,8 +11,8 @@ if (parallaxContainer) {
     const siteHeader = document.querySelector('.site-header');
     const parallaxContent = parallaxContainer.querySelector('.parallax-content');
     const maxScrollOffset = parallaxContainer.offsetTop + parallaxContainer.offsetHeight;
-    if (parallaxContent) window.addEventListener('gesturechange', handleScroll);
-    if (parallaxContent) window.addEventListener('touchmove', handleScroll);
+    if (parallaxContent) window.addEventListener('gesturechange', handleScroll, {passive: true});
+    if (parallaxContent) window.addEventListener('touchmove', handleScroll, {passive: true});
     if (parallaxContent) window.addEventListener('scroll', handleScroll);
     function handleScroll() {
         if (scrollY > maxScrollOffset) return false;
