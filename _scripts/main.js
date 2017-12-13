@@ -4,6 +4,7 @@ import htmlComp from './libs/htmlComp';
 
 const parallaxContainer = document.querySelector('.parallax-container');
 const mapContainer = document.querySelector('#map-container');
+const serviceArticles = document.querySelectorAll('.section-services article');
 
 document.body.addEventListener('touchstart', () => {});
 
@@ -19,6 +20,27 @@ if (parallaxContainer) {
         parallaxContent.style.transform = `translateY(${scrollY * .5}px)`;
         siteHeader.style.transform = `translateY(${scrollY * .75}px)`;
     };
+};
+
+if (serviceArticles.length) {
+    window.addEventListener('scroll', function() {
+        Array.prototype.forEach.call(serviceArticles, item => {
+            const vBegin = item.offsetTop - window.innerHeight * .8;
+            const vEnd = item.offsetTop + item.offsetHeight * .8;
+            if (scrollY < vBegin) {
+                item.classList.add('bellow-screen');
+                item.classList.remove('above-screen');
+            }
+            else if (scrollY > vEnd) {
+                item.classList.remove('bellow-screen');
+                item.classList.add('above-screen');
+            }
+            else {
+                item.classList.remove('bellow-screen');
+                item.classList.remove('above-screen');
+            };
+        });
+    });
 };
 
 if (mapContainer) {

@@ -53,6 +53,14 @@
         +media-query($on-palm)
             padding: $spacing-unit / 4 $spacing-unit / 2
         .service
+            -webkit-transition: .6s ease-in-out
+            transition: .6s ease-in-out
+            &.bellow-screen, &.above-screen
+                opacity: 0
+            &.bellow-screen
+                transform: translateY(100px)
+            &.above-screen
+                transform: translateY(-100px)
             +media-greater($on-palm)
                 max-width: 25em
                 margin: $spacing-unit / 2
