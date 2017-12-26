@@ -36,3 +36,5 @@ Contratação de câmbio;
 Processo de desembaraço aduaneiro;
 
 Acompanhamento da operação até sua liquidação;
+
+Envio de follow-up diário.
