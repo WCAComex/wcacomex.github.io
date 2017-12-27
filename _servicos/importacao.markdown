@@ -5,21 +5,21 @@ image: "/uploads/IMPORTACAO_.jpg"
 ordem: 3
 ---
 
-A WCA assiste o cliente desde o início, no levantamento de informações para a análise de custos, que servirá para a decisão de compra, passando pelas etapas documental, operacional, logística e cambial da importação. Cuida para que o processo seja realizado estritamente de acordo com as normas de importação vigentes e para que a mercadoria seja recebida sem complicações.
+A WCA assiste o cliente desde a análise de viabilidade do negócio, no levantamento de informações necessárias ao custeio da operação e que servirão para a decisão de compra, passando pelas etapas documental, operacional, logística e cambial da importação. Cuida para que o processo seja realizado estritamente de acordo com as normas de importação vigentes, e para que a mercadoria seja recebida pelo cliente conforme planejado.
 
-A experiência da equipe da WCA, aliada à capacitação de despachantes aduaneiros, facilita a liberação das mercadorias importadas por seus clientes.
+A experiência e capacitação da equipe da WCA são fatores fundamentais para a conclusão dos processos em boa ordem.
 
 ---
 
 ## Serviços prestados:  
 
-Tratamento administrativo no âmbito do Decex;
+Avaliação do tratamento administrativo no âmbito do Decex;
 
-Análise de faturas pró-formas;
+Análise de pedidos de compra e/ou faturas proformas;
 
 Estudo e classificação de mercadorias na Tarifa Externa Comum (TEC);
 
-Emissão de Licenças de Importação, Registros de Operações Financeiras (ROF), Esquemas de Pagamento, etc.;
+Emissão de Licenças de Importação;
 
 Abertura de cartas de crédito;
 
@@ -27,15 +27,18 @@ Contatos com exportadores e/ou seus representantes no Brasil;
 
 Negociação de tarifas de frete nacional, internacional e reserva de espaço;
 
-Negociação e contratação de seguro de transporte internacional 
-de mercadorias;
+Negociação e contratação de seguro de transporte internacional de mercadorias;
 
 Instrução de embarque ao exportador e/ou ao seu representante;
 
-Acompanhamento do processo de desembaraço aduaneiro 
-com o despachante;
+Processo de desembaraço aduaneiro;
 
-Coordenação de transporte interno (local alfandegado/fábrica);
+Instrução para a emissão de Nota Fiscal de Entrada;
+
+Coordenação de transporte interno (local alfandegado/fábrica); 
+
 Contratação de câmbio;
 
-Acompanhamento da operação até sua liquidação.
+Acompanhamento da operação até sua liquidação;
+
+Envio de follow-up diário.
