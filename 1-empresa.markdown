@@ -8,7 +8,7 @@ image: "/uploads/FACHADA_2.jpg"
 layout: page
 ---
 
-Fundada em 1987, a WCA consolidou-se no mercado realizando serviços de consultoria em comércio exterior. Oferece _expertise_ na gestão de processos de exportação, importação, _drawback_ e consultoria técnica, agregando qualidade aos processos. Tornou-se referência em sua comunidade.
+Fundada em 1987, a WCA consolidou-se no mercado realizando serviços de consultoria em comércio exterior. Oferece expertise na gestão de processos de exportação, importação, drawback e consultoria técnica, agregando qualidade aos processos. Tornou-se referência em sua comunidade.
 
 Seus procedimentos operacionais foram pensados visando atender clientes com diferentes demandas, perfis e necessidades. A equipe altamente capacitada trabalha de forma integrada aos departamentos operacionais das empresas, desenvolvendo soluções personalizadas.
 
@@ -17,7 +17,7 @@ A empresa possui departamentos independentes com recursos e integração funcion
 
 ## O que fazemos
 
-Somos especialistas na prestação de serviços de comércio internacional, com ênfase na gestão de processos de exportação, importação, _drawback_ e operações especiais. A empresa tem domínio nas áreas documental, operacional, logística e cambial.
+Somos especialistas na prestação de serviços de comércio internacional, com ênfase na gestão de processos de exportação, importação, drawback e operações especiais. A empresa tem domínio nas áreas documental, operacional, logística e cambial.
 
 
 <div class="wrapper large">
