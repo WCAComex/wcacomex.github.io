@@ -135,7 +135,9 @@
             font-size: 1.5vw
         p
             letter-spacing: 1px
-            max-width: 28em
+            max-width: 30em
+            +media-greater($large-content-width)
+                max-width: 40em
         .about-content
             position: absolute
             top: 5%
@@ -148,11 +150,7 @@
             font-size: 1.4em
             text-transform: uppercase
         .about-cta
-            +media-query($on-palm)
-                margin-top: $spacing-unit
-            +media-greater($on-palm)
-                margin-top: $spacing-unit * 2
-
+            margin-top: $spacing-unit
 
     &mapa
         padding: 0

@@ -4,9 +4,17 @@
     {% assign about_page = site.pages | where: 'is_about_page', true | first %}
     {% if about_page %}
 
+        {% capture excerpt %}
+            {% if about_page.excerpt %}
+                {{ about_page.excerpt | markdownify | strip_html | strip_newlines }}
+            {% else %}
+                {{ about_page.content | markdownify | strip_html | strip_newlines | truncatewords: 20 }}
+            {% endif %}
+        {% endcapture %}
+
         <h2 class="about-title"><a href="{{ site.baseurl }}{{ about_page.url }}">Sobre a WCA</a></h2>
         <p>
-            {{ about_page.content | markdownify | strip_html | strip_newlines | truncatewords: 20 }}
+            {{ excerpt }}
             <a href="{{ site.baseurl }}{{ about_page.url }}" data-text="nowrap"> continue lendo</a>.
         </p>
     
