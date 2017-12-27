@@ -133,6 +133,9 @@
         line-height: 1.6
         +media-greater($large-content-width)
             font-size: 1.5vw
+        p
+            letter-spacing: 1px
+            max-width: 28em
         .about-content
             position: absolute
             top: 5%
@@ -144,9 +147,12 @@
         .about-title
             font-size: 1.4em
             text-transform: uppercase
-        p
-            letter-spacing: 1px
-            max-width: 26em
+        .about-cta
+            +media-query($on-palm)
+                margin-top: $spacing-unit
+            +media-greater($on-palm)
+                margin-top: $spacing-unit * 2
+
 
     &mapa
         padding: 0
