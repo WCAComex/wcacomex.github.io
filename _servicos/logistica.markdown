@@ -5,9 +5,9 @@ image: "/uploads/LOGISTICA_.jpg"
 ordem: 5
 ---
 
-Em 30 anos de atividades, a WCA adquiriu experiência para gerenciar processos logísticos no Brasil e no exterior. Desenvolveu bom relacionamento com os melhores agentes de carga, companhias marítimas e aéreas, transportadoras, despachantes, armazéns e terminais alfandegados. Possui colaboradores efetivos em portos, aeroportos e fronteiras do país prontos para atender às necessidades de seus clientes, qualquer que seja o modal da operação.
+Em mais 30 anos de atividades, a WCA adquiriu experiência para gerenciar processos logísticos no Brasil e no exterior. Desenvolveu relacionamentos com agentes de carga, companhias marítimas, aéreas e transportadoras, armazéns gerais e terminais alfandegados. Possui colaboradores em portos, aeroportos e fronteiras do país, prontos para atender às necessidades de seus clientes, qualquer que seja o modal da operação.
 
-A WCA avalia e define a operação logística adequada às necessidades da sua empresa. Supervisiona todas as etapas sempre atenta à movimentação da mercadoria e ao cumprimento de prazos. O bom gerenciamento é focado na obtenção de resultados.
+A WCA avalia e indica a operação logística adequada às necessidades da sua empresa. Coordena os serviços atenta à movimentação da mercadoria e ao cumprimento de prazos. 
 
 ---
 
@@ -15,7 +15,7 @@ A WCA avalia e define a operação logística adequada às necessidades da sua e
 
 Logística Integrada Door to Door;
 
-Fretamento nacional e internacional: marítimo, aéreo, rodoviário e ferroviário;
+Fretamento nacional (incluindo a cabotagem) e internacional: marítimo, aéreo, rodoviário e ferroviário;
 
 Transporte multimodal;
 
