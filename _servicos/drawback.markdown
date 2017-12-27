@@ -5,28 +5,29 @@ image: "/uploads/DRAWBACK_.jpg"
 ordem: 4
 ---
 
-As operações de drawback são facilitadas pelo conhecimento técnico da WCA nessa área. A obtenção do benefício de incentivo à exportação é tratada com precisão e segurança. A meta é a sua realização de forma clara e simples.
+As operações de drawback são facilitadas pelo conhecimento técnico e experiência de nossos especialistas. A obtenção do benefício de incentivo à exportação e a gestão completa do processo são conduzidas com precisão e segurança. O objetivo é a sua realização de forma clara e descomplicada.
 
-Assim como esse regime aduaneiro especial, que apresenta hoje grande flexibilidade para ajustar-se às necessidades de cada beneficiário, a equipe da WCA possui capacitação para buscar soluções para seus clientes e experiência para orientar sobre os procedimentos adequados para viabilizar a operação.
+Assim como esse importante regime aduaneiro se mostra cada vez mais imprescindível para a competição das empresas brasileiras no mercado internacional, a equipe WCA possui relevante capacitação para orientar seus clientes e executar o processo de forma a incentiva-los a fazerem uso contínuo desse benefício.
 
 ---
 
 ## Serviços prestados:  
 
-Estudo de viabilidade na obtenção do regime em todas as suas modalidades;
+Estudo de viabilidade para a obtenção do regime em todas as suas modalidades;
 
-Obtenção do Ato Concessório, incluindo orientação na elaboração 
-de laudos técnicos;
+Orientação na elaboração de laudos técnicos;
 
-Requerimento à Secretaria da Receita Federal (SRF) 
-nos casos de restituição de tributos;
+Obtenção do Ato Concessório; 
+
+Requerimento à Receita Federal do Brasil (RFB) na modalidade restituição;
 
 Emissão de licenças de importação;
 
-Comprovação das importações e exportações realizadas;
+Comprovação das importações e exportações realizadas; 
+
 Controle das comprovações via sistema eletrônico;
 
-Controle, acompanhamento de prazos e prorrogações;
+Controle e acompanhamento de prazos e prorrogações;
 
 Correspondências diversas ao Decex;
 
