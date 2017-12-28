@@ -1,10 +1,11 @@
 $banner-animation-duration: 21s
 
+.banner, .section-about
+    background: #1960b2
 .banner
     position: relative
     overflow: hidden
     padding-bottom: 0
-    background-color: #1960b2
     .globo
         background:
             position: center
@@ -14,8 +15,7 @@ $banner-animation-duration: 21s
         display: block
         height: 0
         padding-bottom: 140%
-        margin: 200px -30% -90% -30%
-        margin-top: calc(360px - 25%)
+        margin: 0 -30% -90% -30%
         border-radius: 100%
         overflow: hidden
         backface-visibility: hidden
@@ -27,7 +27,6 @@ $banner-animation-duration: 21s
             background-image: url('#{$baseurl}/img/home/globo-sm.jpg')
         +media-greater($on-palm)
             background-image: url('#{$baseurl}/img/home/globo.jpg')
-            margin-top: 0%
         +media-greater($on-laptop)
             margin-top: -15%
         +media-greater($on-palm)
