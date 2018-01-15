@@ -1,10 +1,17 @@
 console.time('Execução do script');
 
 import htmlComp from './libs/htmlComp';
+import screen from './libs/screen';
 
 const parallaxContainer = document.querySelector('.parallax-container');
 const mapContainer = document.querySelector('#map-container');
 const serviceArticles = document.querySelectorAll('.section-services article');
+const topVideoBackground = document.getElementById('top-video-background');
+
+if (topVideoBackground) {
+    topVideoBackground.src = screen().width > 600 ? topVideoBackground.dataset.src : topVideoBackground.dataset.mobile;
+    topVideoBackground.addEventListener('load', function() {this.play()});
+};
 
 document.body.addEventListener('touchstart', () => {});
 
