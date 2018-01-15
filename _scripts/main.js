@@ -9,7 +9,8 @@ const serviceArticles = document.querySelectorAll('.section-services article');
 const topVideoBackground = document.getElementById('top-video-background');
 
 if (topVideoBackground) {
-    topVideoBackground.src = screen().width > 600 ? topVideoBackground.dataset.src : topVideoBackground.dataset.mobile;
+    const s = screen(), w = s.width, h = s.height;
+    topVideoBackground.src = w > 600 || h > 600 ? topVideoBackground.dataset.src : topVideoBackground.dataset.mobile;
     topVideoBackground.addEventListener('load', function() {this.play()});
 };
 
