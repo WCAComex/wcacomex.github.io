@@ -14,7 +14,13 @@ if (topVideoBackground) {
         w > 1000 || h > 1000 ? topVideoBackground.getAttribute('data-4k') :
         w >  700 || h >  700 ? topVideoBackground.getAttribute('data-hq') :
                                topVideoBackground.getAttribute('data-lq');
-    topVideoBackground.addEventListener('canplay', function() {this.play()});
+    topVideoBackground.addEventListener('canplay', function() {this.play()}, false);
+    topVideoBackground.addEventListener('loadedmetadata', function () {
+        let width = this.videoWidth;
+        let height = this.videoHeight;
+        topVideoBackground.width  = h * width / height;
+        topVideoBackground.height = w * height / width;
+    }, false );
 };
 
 document.body.addEventListener('touchstart', () => {});
