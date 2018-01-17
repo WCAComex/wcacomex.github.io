@@ -14,7 +14,7 @@ if (topVideoBackground) {
         w > 1000 || h > 1000 ? topVideoBackground.getAttribute('data-4k') :
         w >  700 || h >  700 ? topVideoBackground.getAttribute('data-hq') :
                                topVideoBackground.getAttribute('data-lq');
-    topVideoBackground.addEventListener('load', function() {this.play()});
+    topVideoBackground.addEventListener('canplay', function() {this.play()});
 };
 
 document.body.addEventListener('touchstart', () => {});
