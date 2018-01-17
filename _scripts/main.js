@@ -10,10 +10,13 @@ const topVideoBackground = document.getElementById('top-video-background');
 
 if (topVideoBackground) {
     const s = screen(), w = s.width, h = s.height;
+    const container = topVideoBackground.parentElement;
     topVideoBackground.src = 
         w < 500 && h < 500 ? topVideoBackground.getAttribute('data-lq') :
         w < 700 && h < 700 ? topVideoBackground.getAttribute('data-hq') :
                              topVideoBackground.getAttribute('data-4k');
+    container.style.width  = h * topVideoBackground.videoWidth / topVideoBackground.videoHeight;
+    container.style.height = w * topVideoBackground.videoHeight / topVideoBackground.videoWidth;
     topVideoBackground.addEventListener('canplay', function() {this.play()}, false);
 };
 
