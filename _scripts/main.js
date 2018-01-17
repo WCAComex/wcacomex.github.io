@@ -10,7 +10,10 @@ const topVideoBackground = document.getElementById('top-video-background');
 
 if (topVideoBackground) {
     const s = screen(), w = s.width, h = s.height;
-    topVideoBackground.src = w > 600 || h > 600 ? topVideoBackground.dataset.src : topVideoBackground.dataset.mobile;
+    topVideoBackground.src = 
+        w > 1000 || h > 1000 ? topVideoBackground.getAttribute('data-4k') :
+        w >  700 || h >  700 ? topVideoBackground.getAttribute('data-hq') :
+                               topVideoBackground.getAttribute('data-lq');
     topVideoBackground.addEventListener('load', function() {this.play()});
 };
 
