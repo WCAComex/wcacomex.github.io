@@ -11,16 +11,10 @@ const topVideoBackground = document.getElementById('top-video-background');
 if (topVideoBackground) {
     const s = screen(), w = s.width, h = s.height;
     topVideoBackground.src = 
-        w > 1000 || h > 1000 ? topVideoBackground.getAttribute('data-4k') :
-        w >  700 || h >  700 ? topVideoBackground.getAttribute('data-hq') :
-                               topVideoBackground.getAttribute('data-lq');
+        w < 500 && h < 500 ? topVideoBackground.getAttribute('data-lq') :
+        w < 700 && h < 700 ? topVideoBackground.getAttribute('data-hq') :
+                             topVideoBackground.getAttribute('data-4k');
     topVideoBackground.addEventListener('canplay', function() {this.play()}, false);
-    topVideoBackground.addEventListener('loadedmetadata', function () {
-        let width = this.videoWidth;
-        let height = this.videoHeight;
-        topVideoBackground.width  = h * width / height;
-        topVideoBackground.height = w * height / width;
-    }, false );
 };
 
 document.body.addEventListener('touchstart', () => {});
