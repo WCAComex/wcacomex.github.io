@@ -11,9 +11,9 @@ const topVideoBackground = document.getElementById('top-video-background');
 if (topVideoBackground) {
     const s = screen(), w = s.width, h = s.height;
     topVideoBackground.src = 
-        w < 400 && h < 400 ? topVideoBackground.getAttribute('data-lq') :
-        w < 700 && h < 700 ? topVideoBackground.getAttribute('data-hq') :
-        topVideoBackground.getAttribute('data-4k');
+        w < 400 && h < 400 ? topVideoBackground.getAttribute('data-ld') :
+        // w < 700 && h < 700 ? topVideoBackground.getAttribute('data-hd') :
+        topVideoBackground.getAttribute('data-hd');
     topVideoBackground.addEventListener('loadedmetadata', function() {
         console.log( 
             w / topVideoBackground.videoWidth, 
