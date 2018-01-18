@@ -40,6 +40,11 @@
             transform: translate(0,0)
             overflow: hidden
             z-index: -1
+            background:
+                image: url('#{$baseurl}/img/port-panorama-poster.jpg')
+                position: center
+                repeat: no-repeat
+                size: cover
             video
                 @extend %transition
                 position: absolute
@@ -51,6 +56,7 @@
                 min-width: 100%
                 min-height: 100%
                 opacity: 0
+                transition-duration: 1s
 
     &services
         padding-top: $spacing-unit * 2
