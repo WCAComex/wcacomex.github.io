@@ -20,7 +20,10 @@ if (topVideoBackground) {
             h / topVideoBackground.videoHeight 
         );
     });
-    topVideoBackground.addEventListener('canplay', function() {this.play()}, false);
+    topVideoBackground.addEventListener('canplay', function() {
+        this.style.opacity = 1;
+        this.play();
+    }, false);
 };
 
 document.body.addEventListener('touchstart', () => {});
