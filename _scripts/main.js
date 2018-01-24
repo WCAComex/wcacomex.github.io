@@ -10,16 +10,9 @@ const topVideoBackground = document.getElementById('top-video-background');
 
 if (topVideoBackground) {
     const s = screen(), w = s.width, h = s.height;
-    topVideoBackground.src = 
-        w < 400 && h < 400 ? topVideoBackground.getAttribute('data-ld') :
-        // w < 700 && h < 700 ? topVideoBackground.getAttribute('data-hd') :
+    topVideoBackground.src = w < 400 && h < 400 ? 
+        topVideoBackground.getAttribute('data-ld') :
         topVideoBackground.getAttribute('data-hd');
-    topVideoBackground.addEventListener('loadedmetadata', function() {
-        console.log( 
-            w / topVideoBackground.videoWidth, 
-            h / topVideoBackground.videoHeight 
-        );
-    });
     topVideoBackground.addEventListener('canplay', function() {
         this.style.opacity = 1;
         this.play();
