@@ -1,9 +1,9 @@
 ---
-title: Email enviado
+title: E-mail enviado
 layout: page
 ---
 
-Recebemos a sua mensagem. Aguarde nosso contato.
+Recebemos sua mensagem. Por favor, aguarde nosso contato.
 
 ---
 
