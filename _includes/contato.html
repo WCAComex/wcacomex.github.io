@@ -1,6 +1,6 @@
 
 <div id="contato" data-modal="" data-grid="center">
-    <form action="" class="page-content wrapper">
+    <form method="post" action="http://www.wca.com.br/enviar_email.php" class="page-content wrapper">
         <div data-grid="row nowrap spacing">
             <div data-cell="shrink"><img src="{{ site.baseurl }}/favicon.png" height="56" alt="{{ site.title }}"></div>
             <h4>Fale conosco</h4>
@@ -9,7 +9,7 @@
         <div data-grid="center spacing">
             <p data-cell="fill">
                 <label for="nome">Nome</label>
-                <input type="text" name="nome" placeholder="Digite seu nome...">
+                <input type="text" name="nome" placeholder="Digite seu nome..." required>
             </p>
             <p data-cell="fill">
                 <label for="empresa">Empresa</label>
@@ -18,11 +18,15 @@
         </div>
         <p>
             <label for="email">E-mail para contato</label>
-            <input type="email" name="email" placeholder="nome@dominio.com">
+            <input type="email" name="email" placeholder="nome@dominio.com" required>
         </p>
         <p>
             <label for="mensagem">Mensagem</label>
             <textarea name="mensagem" cols="30" rows="4" placeholder="Digite a sua mensagem..."></textarea>
+        </p>
+        <p class="honeypot">
+            <label for="honey">Se estiver vendo isto, deixe este campo vazio</label>
+            <input type="text" name="honey">
         </p>
         <p data-grid="row nowrap center spacing justify">
             <a href="#x" data-cell="shrink">Fechar</a>
