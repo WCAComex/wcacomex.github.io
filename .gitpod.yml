@@ -1,0 +1,3 @@
+tasks:
+  - init: gem install jekyll bundler && bundle install
+    command: bundle exec jekyll s w
