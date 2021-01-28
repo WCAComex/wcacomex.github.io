@@ -7,7 +7,7 @@ excerpt: Somos uma empresa de consultoria consolidada no mercado de prestação 
   contando com moderna estrutura.
 nav-title: EMPRESA
 is_about_page: true
-image: "/uploads/FACHADA_2.jpg"
+image: "/uploads/topo1%20(1).jpg"
 layout: page
 ---
 
