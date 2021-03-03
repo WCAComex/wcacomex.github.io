@@ -48,11 +48,12 @@ defaults:
     cor: 
 tagline: Inteligência em comércio exterior
 description: Inteligência em comércio exterior
-baseurl: ''
+baseurl: 
 url: http://wca.com.br
 markdown: kramdown
 sass:
   style: compressed
+  selo image: "/uploads/WCA%20Logo30anos.jpg"
 exclude:
 - node_modules
 - desktop.ini
