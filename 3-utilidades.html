@@ -7,23 +7,20 @@ layout: page
 
 <section class="page-content utilidades" data-grid="around row wrap">
 
-    {% for utilidade in site.utilidades %}
+    {% for utilidade in site.utilidades %}{% if utilidade.icone %}
 
-        <article class="utilidades-item" data-cell="shrink">
-            <a href="{{ site.baseurl }}{{ utilidade.url }}" data-text="center">
-                {% if utilidade.icone %}
-                    <span class="icon utilidades-icon"
-                    {% if utilidade.cor %}
-                        style="background-color: {{ utilidade.cor }};"
-                    {% endif %}
-                    >
-                        {% include svg/{{ utilidade.icone }}.svg %}
-                    </span>
-                {% endif %}
-                <span class="utilidades-title">{{ utilidade.title }}</span>
-            </a>
-        </article>
+    <article class="utilidades-item" data-cell="shrink">
+        <a href="{{ site.baseurl }}{{ utilidade.url }}" data-text="center">
+            {% if utilidade.icone %}
+            <span class="icon utilidades-icon" {% if utilidade.cor %} style="background-color: {{ utilidade.cor }};" {%
+                endif %}>
+                {% include svg/{{ utilidade.icone }}.svg %}
+            </span>
+            {% endif %}
+            <span class="utilidades-title">{{ utilidade.title }}</span>
+        </a>
+    </article>
 
-    {% endfor %}
+    {% endif %}{% endfor %}
 
 </section>

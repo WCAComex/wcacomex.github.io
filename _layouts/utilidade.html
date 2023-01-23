@@ -30,11 +30,11 @@ layout: default
             <strong>Utilidades</strong>
         </p>
         <ul class="seamless">
-            {% for u in site.utilidades %}
+            {% for u in site.utilidades %}{% if u.icone %}
                 <li class="page-nav-item">
                     <a href="{{ site.baseurl }}{{ u.url }}">{{ u.title }}</a>
                 </li>
-            {% endfor %}
+            {% endif %}{% endfor %}
         </ul>
     </nav>
     
