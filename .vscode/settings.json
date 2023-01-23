@@ -1,0 +1,9 @@
+{
+    "cSpell.language": "en,pt,pt_BR",
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2,
+    "files.associations": {
+      "*.html": "jekyll",
+      "*.markdown": "jekyll"
+    }
+}
