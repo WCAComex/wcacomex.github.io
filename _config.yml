@@ -58,6 +58,7 @@ exclude:
 - desktop.ini
 - gulpfile.js
 - npm-debug.log
+- vendor
 plugins:
 - jekyll-sitemap
 long-title: WCA Consultoria e Comércio Exterior Ltda.
