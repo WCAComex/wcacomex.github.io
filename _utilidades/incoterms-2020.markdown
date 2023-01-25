@@ -19,7 +19,7 @@ INCOTERMS® 2020
 | DAP <br /> Qualquer Meio         | Delivered at Place             | Vendedor                | Vendedor                                 | Vendedor                            | Vendedor                        | Vendedor                       | Vendedor                 | Vendedor \*\*                      | Vendedor                        | Comprador                        | Vendedor                             | Comprador                             |
 | DPU <br /> Qualquer Meio         | Delivered at Place Unloaded    | Vendedor                | Vendedor                                 | Vendedor                            | Vendedor                        | Vendedor                       | Vendedor                 | Vendedor \*\*                      | Vendedor                        | Comprador                        | Comprador                            | Vendedor                              |
 | DDP <br /> Qualquer Meio         | Delivered Duty Paid            | Vendedor                | Vendedor                                 | Vendedor                            | Vendedor                        | Vendedor                       | Vendedor                 | Vendedor \*\*                      | Vendedor                        | Vendedor                         | Vendedor                             | Comprador                             |
-{: ^target=table .scrollable #incoterms style="font-size:.6em;text-align:center;text-transform:uppercase;" }
+{: ^target=table .scrollable #incoterms style="font-size:.7em;text-align:center;text-transform:uppercase;" }
 
 \*
 : Não há obrigação de contratação de seguro sendo os riscos assumidos pelo Comprador.
