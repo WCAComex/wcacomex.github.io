@@ -4,8 +4,6 @@ date: 2023-01-23 18:30:00 -02:00
 cor: "#1E90FF"
 ---
 
-INCOTERMS® 2020
-
 | **T E R M O S** <br /> Meio de Transporte | **I N C O T E R M S**                       | Embalagem e Conferência | Carregamento nas Instalações <br /> do Vendedor | Transporte na Origem <br /> (pré-embarque) | Desembaraço Aduaneiro <br /> na Origem | Despesas de Terminal <br /> na Origem | Transporte Internacional | Seguro de <br /> Transporte Internacional | Despesas de Terminal <br /> no Destino | Desembaraço Aduaneiro <br /> no Destino | Transporte no Destino <br /> (Pós-embarque) | Descarga nas Instalações <br /> do Comprador |
 | -------------------------------- | ------------------------------ | ----------------------- | ---------------------------------------- | ----------------------------------- | ------------------------------- | ------------------------------ | ------------------------ | ---------------------------------- | ------------------------------- | -------------------------------- | ------------------------------------ | ------------------------------------- |
 | **EXW** <br /> Qualquer Meio         | Ex Works                       | Vendedor                | Comprador                                | Comprador                           | Comprador                       | Comprador                      | Comprador                | Comprador \*                        | Comprador                       | Comprador                        | Comprador                            | Comprador                             |
