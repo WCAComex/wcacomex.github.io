@@ -1,6 +1,7 @@
 ---
 title: Incoterms 2020
 date: 2023-01-23 18:30:00 -02:00
+icone: shipping
 cor: "#1E90FF"
 ---
 
