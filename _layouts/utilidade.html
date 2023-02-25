@@ -26,12 +26,15 @@ layout: default
 <div class="page-content">
     
     <nav class="wrapper page-nav">
-        <p>
-            <strong>Utilidades</strong>
-        </p>
+        <h2>Utilidades</h2>
+
         <ul class="seamless">
             {% for u in site.utilidades %}{% if u.icone %}
                 <li class="page-nav-item">
+                    <span class="icon"
+                        {% if u.cor %} style="background-color: {{ u.cor }};" {% endif %}>
+                        {% include svg/{{ u.icone }}.svg %}
+                    </span>
                     <a href="{{ site.baseurl }}{{ u.url }}">{{ u.title }}</a>
                 </li>
             {% endif %}{% endfor %}

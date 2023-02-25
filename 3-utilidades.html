@@ -11,12 +11,11 @@ layout: page
 
     <article class="utilidades-item" data-cell="shrink">
         <a href="{{ site.baseurl }}{{ utilidade.url }}" data-text="center">
-            {% if utilidade.icone %}
-            <span class="icon utilidades-icon" {% if utilidade.cor %} style="background-color: {{ utilidade.cor }};" {%
-                endif %}>
+            <span class="icon utilidades-icon"
+                {% if utilidade.cor %} style="background-color: {{ utilidade.cor }};" {% endif %}>
                 {% include svg/{{ utilidade.icone }}.svg %}
             </span>
-            {% endif %}
+
             <span class="utilidades-title">{{ utilidade.title }}</span>
         </a>
     </article>
