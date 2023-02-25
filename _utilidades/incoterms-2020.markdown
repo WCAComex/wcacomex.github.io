@@ -7,7 +7,7 @@ cor: "#1E90FF"
 
 <style>
   #incoterms td:first-of-type, #incoterms td:first-of-type + td {
-    background-color: #9c9ea1;
+    background-color: #b9bebf;
     color: #fff;
   }
 </style>
