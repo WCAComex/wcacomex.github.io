@@ -5,5 +5,6 @@
     "files.associations": {
       "*.html": "jekyll",
       "*.markdown": "jekyll"
-    }
+    },
+    "svn.ignoreMissingSvnWarning": true
 }
